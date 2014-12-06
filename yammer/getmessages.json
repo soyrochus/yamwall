@@ -1,0 +1,1840 @@
+{
+    "threaded_extended": {},
+    "messages": [
+        {
+            "id": 473047525,
+            "sender_id": 1491684659,
+            "replied_to_id": null,
+            "created_at": "2014/12/06 16:51:50 +0000",
+            "network_id": 50070,
+            "message_type": "update",
+            "sender_type": "user",
+            "url": "https://www.yammer.com/api/v1/messages/473047525",
+            "web_url": "https://www.yammer.com/encamina.com/messages/473047525",
+            "group_id": 3935898,
+            "body": {
+                "urls": [
+                    "https://github.com/yammer/dotnet-yammersdk",
+                    "https://developer.yammer.com/yammer-sdks/"
+                ],
+                "parsed": "En lugar de utilizar el API de Yammer directamente con HTTP (\"ReST\"), puedes utilizar lo con clases DOT.NET:\n\nFuentes en Github (hay un package NuGet)\nhttps://github.com/yammer/dotnet-yammersdk\n\nDocumentacion:\n\nhttps://developer.yammer.com/yammer-sdks/",
+                "plain": "En lugar de utilizar el API de Yammer directamente con HTTP (\"ReST\"), puedes utilizar lo con clases DOT.NET:\n\nFuentes en Github (hay un package NuGet)\nhttps://github.com/yammer/dotnet-yammersdk\n\nDocumentacion:\n\nhttps://developer.yammer.com/yammer-sdks/",
+                "rich": "En lugar de utilizar el API de Yammer directamente con HTTP (\"ReST\"), puedes utilizar lo con clases DOT.NET:<br><br>Fuentes en Github (hay un package NuGet)<br><a class=\"linkified\" href=\"https://github.com/yammer/dotnet-yammersdk\" target=\"_blank\" rel=\"nofollow noreferrer\">https://github.com/yammer/dotnet-yammersdk</a><br><br>Documentacion:<br><br><a class=\"linkified\" href=\"https://developer.yammer.com/yammer-sdks/\" target=\"_blank\" rel=\"nofollow noreferrer\">https://developer.yammer.com/yammer-sdks/</a>"
+            },
+            "thread_id": 473047525,
+            "client_type": "Web",
+            "client_url": "https://www.yammer.com/",
+            "system_message": false,
+            "direct_message": false,
+            "chat_client_sequence": null,
+            "content_excerpt": "En lugar de utilizar el API de Yammer directamente con HTTP (\"ReST\"), puedes utilizar lo con clases DOT.NET:\n\nFuentes en Github (hay un package NuGet)\nhttps://github.com/yammer/dotnet-yammersdk\n\nDocumentacion:\n\nhttps://developer.yammer.com/yammer-sdks/",
+            "language": "es",
+            "notified_user_ids": [],
+            "privacy": "public",
+            "attachments": [
+                {
+                    "id": 3515612443051355,
+                    "record_id": 351561197000383,
+                    "type": "ymodule",
+                    "name": "yammer/dotnet-yammersdk",
+                    "description": "dotnet-yammersdk Pending LCA Approval.",
+                    "web_url": "https://github.com/yammer/dotnet-yammersdk",
+                    "thumbnail_url": "https://avatars0.githubusercontent.com/u/119402?v=3&s=400",
+                    "object_type": "page",
+                    "object_name": "GitHub",
+                    "host_url": "github.com",
+                    "inline_url": "blank.html",
+                    "inline_html": "<div class=\"yj-open-graph-object ymodule-instance\" data-ymodule-instance=\"3515612443051355\">\n  <div class=\"ymodule-instance-3515612443051355-container-1 yj-open-graph-image yj-open-graph-contents\">\n    <div class=\"yj-thumbnail\">\n      <a href=\"https://github.com/yammer/dotnet-yammersdk\" target=\"_blank\" rel=\"nofollow noreferrer\">\n        <img src=\"https://avatars0.githubusercontent.com/u/119402?v=3&amp;s=400\" alt=\"\" class=\"yj-icon\" />\n      </a>\n    </div>\n    <h5 class=\"yj-title\">\n      <span><a href=\"https://github.com/yammer/dotnet-yammersdk\" target=\"_blank\" rel=\"nofollow noreferrer\"\n          >\n        yammer/dotnet-yammersdk\n      </a></span>\n    </h5>\n    <h6 class=\"yj-subtitle\">\n      <span>github.com</span>\n    </h6>\n    <p class=\"yj-description\">\n      <span>dotnet-yammersdk Pending LCA Approval.</span>\n    </p>\n  </div>\n  <div class=\"yj-actions-container\"></div>\n</div>\n",
+                    "ymodule": {
+                        "web_app_id": "open_graph_object",
+                        "app_id": "blank",
+                        "icon_url": "blank.gif"
+                    }
+                }
+            ],
+            "liked_by": {
+                "count": 0,
+                "names": []
+            },
+            "group_created_id": 3935898
+        },
+        {
+            "id": 472843885,
+            "sender_id": 1491684659,
+            "replied_to_id": 472842667,
+            "created_at": "2014/12/05 18:25:27 +0000",
+            "network_id": 50070,
+            "message_type": "update",
+            "sender_type": "user",
+            "url": "https://www.yammer.com/api/v1/messages/472843885",
+            "web_url": "https://www.yammer.com/encamina.com/messages/472843885",
+            "body": {
+                "parsed": "No es Windows Phone. No funciona tampoco en Android 5. \n\nUn página web que pide participación en un concurso para app móviles que por su mismo no funciona bien en móviles.",
+                "plain": "No es Windows Phone. No funciona tampoco en Android 5.\n\nUn página web que pide participación en un concurso para app móviles que por su mismo no funciona bien en móviles.",
+                "rich": "No es Windows Phone. No funciona tampoco en Android 5. <br><br>Un página web que pide participación en un concurso para app móviles que por su mismo no funciona bien en móviles."
+            },
+            "thread_id": 472698913,
+            "client_type": "Web",
+            "client_url": "https://www.yammer.com/",
+            "system_message": false,
+            "direct_message": false,
+            "chat_client_sequence": null,
+            "content_excerpt": "No es Windows Phone. No funciona tampoco en Android 5.\n\nUn página web que pide participación en un concurso para app móviles que por su mismo no funciona bien en móviles.",
+            "language": "es",
+            "notified_user_ids": [],
+            "privacy": "public",
+            "attachments": [],
+            "liked_by": {
+                "count": 0,
+                "names": []
+            },
+            "group_created_id": null
+        },
+        {
+            "id": 472842775,
+            "sender_id": 508964,
+            "replied_to_id": 472698913,
+            "created_at": "2014/12/05 18:22:24 +0000",
+            "network_id": 50070,
+            "message_type": "update",
+            "sender_type": "user",
+            "url": "https://www.yammer.com/api/v1/messages/472842775",
+            "web_url": "https://www.yammer.com/encamina.com/messages/472842775",
+            "body": {
+                "parsed": "Me refiero desde mu movil vamos",
+                "plain": "Me refiero desde mu movil vamos",
+                "rich": "Me refiero desde mu movil vamos"
+            },
+            "thread_id": 472698913,
+            "client_type": "Windows Phone",
+            "client_url": "https://about.yammer.com/product/mobile/windows/",
+            "system_message": false,
+            "direct_message": false,
+            "chat_client_sequence": null,
+            "content_excerpt": "Me refiero desde mu movil vamos",
+            "language": "es",
+            "notified_user_ids": [],
+            "privacy": "public",
+            "attachments": [],
+            "liked_by": {
+                "count": 0,
+                "names": []
+            },
+            "group_created_id": null
+        },
+        {
+            "id": 472842667,
+            "sender_id": 508964,
+            "replied_to_id": 472698913,
+            "created_at": "2014/12/05 18:22:05 +0000",
+            "network_id": 50070,
+            "message_type": "update",
+            "sender_type": "user",
+            "url": "https://www.yammer.com/api/v1/messages/472842667",
+            "web_url": "https://www.yammer.com/encamina.com/messages/472842667",
+            "body": {
+                "parsed": "Tiene guasa pero desde mi Windows Phone el botón de opciones que hay en la pagina NO FUNCIONA!!!!",
+                "plain": "Tiene guasa pero desde mi Windows Phone el botón de opciones que hay en la pagina NO FUNCIONA!!!!",
+                "rich": "Tiene guasa pero desde mi Windows Phone el botón de opciones que hay en la pagina NO FUNCIONA!!!!"
+            },
+            "thread_id": 472698913,
+            "client_type": "Windows Phone",
+            "client_url": "https://about.yammer.com/product/mobile/windows/",
+            "system_message": false,
+            "direct_message": false,
+            "chat_client_sequence": null,
+            "content_excerpt": "Tiene guasa pero desde mi Windows Phone el botón de opciones que hay en la pagina NO FUNCIONA!!!!",
+            "language": "es",
+            "notified_user_ids": [],
+            "privacy": "public",
+            "attachments": [],
+            "liked_by": {
+                "count": 1,
+                "names": [
+                    {
+                        "full_name": "Iwan van der Kleijn",
+                        "permalink": "ivanderkleijn",
+                        "user_id": 1491684659,
+                        "network_id": 50070
+                    }
+                ]
+            },
+            "group_created_id": null
+        },
+        {
+            "id": 472826283,
+            "sender_id": 1491684659,
+            "replied_to_id": 472354740,
+            "created_at": "2014/12/05 17:33:41 +0000",
+            "network_id": 50070,
+            "message_type": "update",
+            "sender_type": "user",
+            "url": "https://www.yammer.com/api/v1/messages/472826283",
+            "web_url": "https://www.yammer.com/encamina.com/messages/472826283",
+            "body": {
+                "urls": [
+                    "https://www.youtube.com/watch?v=Fe93CLbHjxQ"
+                ],
+                "parsed": "Suerte caballeros.\n\nhttps://www.youtube.com/watch?v=Fe93CLbHjxQ",
+                "plain": "Suerte caballeros.\n\nhttps://www.youtube.com/watch?v=Fe93CLbHjxQ",
+                "rich": "Suerte caballeros.<br><br><a class=\"linkified\" href=\"https://www.youtube.com/watch?v=Fe93CLbHjxQ\" target=\"_blank\" rel=\"nofollow noreferrer\">https://www.youtube.com/watch?v=Fe93CLbHjxQ</a>"
+            },
+            "thread_id": 472354740,
+            "client_type": "Web",
+            "client_url": "https://www.yammer.com/",
+            "system_message": false,
+            "direct_message": false,
+            "chat_client_sequence": null,
+            "content_excerpt": "Suerte caballeros.\n\nhttps://www.youtube.com/watch?v=Fe93CLbHjxQ",
+            "language": "es",
+            "notified_user_ids": [],
+            "privacy": "public",
+            "attachments": [
+                {
+                    "id": 3515612442198603,
+                    "record_id": 351561196937232,
+                    "type": "ymodule",
+                    "name": "Ray Parker, Jr. - Ghostbusters",
+                    "description": "Music video by Ray Parker, Jr. performing Ghostbusters. (C) 1984 Arista Records, Inc.",
+                    "web_url": "https://www.youtube.com/watch?v=Fe93CLbHjxQ",
+                    "thumbnail_url": "http://i.ytimg.com/vi/Fe93CLbHjxQ/hqdefault.jpg",
+                    "object_type": "page",
+                    "object_name": "YouTube",
+                    "host_url": "www.youtube.com",
+                    "inline_url": "blank.html",
+                    "inline_html": "<div class=\"yj-open-graph-object ymodule-instance\" data-ymodule-instance=\"3515612442198603\">\n  <div class=\"ymodule-instance-3515612442198603-container-2\">\n  </div>\n  <div class=\"ymodule-instance-3515612442198603-container-1 yj-open-graph-image yj-open-graph-contents\">\n    <div class=\"yj-thumbnail\">\n      <a href=\"https://www.youtube.com/watch?v=Fe93CLbHjxQ\" target=\"_blank\" rel=\"nofollow noreferrer\">\n        <img src=\"https://i.embed.ly/?key=4d90b544096f11e084894040444cdc60&amp;url=http%3A%2F%2Fi.ytimg.com%2Fvi%2FFe93CLbHjxQ%2Fhqdefault.jpg&amp;maxheight=100\" alt=\"\" class=\"yj-icon\" />\n      </a>\n    </div>\n    <h5 class=\"yj-title\">\n      <span><a href=\"https://www.youtube.com/watch?v=Fe93CLbHjxQ\" target=\"_blank\" rel=\"nofollow noreferrer\"\n          data-action-onclick=\"embedVideo(&quot;.container-2&quot;, &quot;https://www.youtube.com/watch?v=Fe93CLbHjxQ&quot;);hide(&quot;.container-1&quot;);\">\n        Ray Parker, Jr. - Ghostbusters\n      </a></span>\n    </h5>\n    <h6 class=\"yj-subtitle\">\n      <span>www.youtube.com</span>\n    </h6>\n    <p class=\"yj-description\">\n      <span>Music video by Ray Parker, Jr. performing Ghostbusters. (C) 1984 Arista Records, Inc.</span>\n    </p>\n  </div>\n  <div class=\"yj-actions-container\"></div>\n</div>\n",
+                    "ymodule": {
+                        "web_app_id": "open_graph_object",
+                        "app_id": "blank",
+                        "icon_url": "blank.gif"
+                    },
+                    "video_url": "https://www.youtube.com/embed/Fe93CLbHjxQ?rel=0&autoplay=0&wmode=transparent"
+                }
+            ],
+            "liked_by": {
+                "count": 0,
+                "names": []
+            },
+            "group_created_id": null
+        },
+        {
+            "id": 472818297,
+            "sender_id": 1492003504,
+            "replied_to_id": null,
+            "created_at": "2014/12/05 17:12:26 +0000",
+            "network_id": 50070,
+            "message_type": "update",
+            "sender_type": "user",
+            "url": "https://www.yammer.com/api/v1/messages/472818297",
+            "web_url": "https://www.yammer.com/encamina.com/messages/472818297",
+            "group_id": 34299,
+            "body": {
+                "urls": [
+                    "https://m.youtube.com/watch?v=Xy6EBzOcslU"
+                ],
+                "parsed": "Hittler y las SharePoint Apps muy friky https://m.youtube.com/watch?v=Xy6EBzOcslU",
+                "plain": "Hittler y las SharePoint Apps muy friky https://m.youtube.com/watch?v=Xy6EBzOcslU",
+                "rich": "Hittler y las SharePoint Apps muy friky <a class=\"linkified\" href=\"https://m.youtube.com/watch?v=Xy6EBzOcslU\" target=\"_blank\" rel=\"nofollow noreferrer\">https://m.youtube.com/watch?v=Xy6EBzOcslU</a>"
+            },
+            "thread_id": 472818297,
+            "client_type": "Windows Phone",
+            "client_url": "https://about.yammer.com/product/mobile/windows/",
+            "system_message": false,
+            "direct_message": false,
+            "chat_client_sequence": null,
+            "content_excerpt": "Hittler y las SharePoint Apps muy friky https://m.youtube.com/watch?v=Xy6EBzOcslU",
+            "language": "en",
+            "notified_user_ids": [],
+            "privacy": "public",
+            "attachments": [],
+            "liked_by": {
+                "count": 2,
+                "names": [
+                    {
+                        "full_name": "Iwan van der Kleijn",
+                        "permalink": "ivanderkleijn",
+                        "user_id": 1491684659,
+                        "network_id": 50070
+                    },
+                    {
+                        "full_name": "Fabián Calvo Valmorisco",
+                        "permalink": "fcalvo",
+                        "user_id": 1519707733,
+                        "network_id": 50070
+                    }
+                ]
+            },
+            "group_created_id": 34299
+        },
+        {
+            "id": 472818077,
+            "sender_id": 1492003504,
+            "replied_to_id": 472806174,
+            "created_at": "2014/12/05 17:11:50 +0000",
+            "network_id": 50070,
+            "message_type": "update",
+            "sender_type": "user",
+            "url": "https://www.yammer.com/api/v1/messages/472818077",
+            "web_url": "https://www.yammer.com/encamina.com/messages/472818077",
+            "body": {
+                "parsed": "Ánimo y caza fantasmas !!",
+                "plain": "Ánimo y caza fantasmas !!",
+                "rich": "Ánimo y caza fantasmas !!"
+            },
+            "thread_id": 472354740,
+            "client_type": "Windows Phone",
+            "client_url": "https://about.yammer.com/product/mobile/windows/",
+            "system_message": false,
+            "direct_message": false,
+            "chat_client_sequence": null,
+            "content_excerpt": "Ánimo y caza fantasmas !!",
+            "language": "es",
+            "notified_user_ids": [],
+            "privacy": "public",
+            "attachments": [],
+            "liked_by": {
+                "count": 0,
+                "names": []
+            },
+            "group_created_id": null
+        },
+        {
+            "id": 472817820,
+            "sender_id": 1491684659,
+            "replied_to_id": null,
+            "created_at": "2014/12/05 17:11:09 +0000",
+            "network_id": 50070,
+            "message_type": "update",
+            "sender_type": "user",
+            "url": "https://www.yammer.com/api/v1/messages/472817820",
+            "web_url": "https://www.yammer.com/encamina.com/messages/472817820",
+            "group_id": 3935898,
+            "body": {
+                "urls": [
+                    "http://updates.html5rocks.com/2014/12/fundamental-of-web-dev"
+                ],
+                "parsed": "Fundamentos del desarrollo web para móviles:\n\nVideo y articulo \n\nhttp://updates.html5rocks.com/2014/12/fundamental-of-web-dev",
+                "plain": "Fundamentos del desarrollo web para móviles:\n\nVideo y articulo\n\nhttp://updates.html5rocks.com/2014/12/fundamental-of-web-dev",
+                "rich": "Fundamentos del desarrollo web para móviles:<br><br>Video y articulo <br><br><a class=\"linkified\" href=\"http://updates.html5rocks.com/2014/12/fundamental-of-web-dev\" target=\"_blank\" rel=\"nofollow noreferrer\">http://updates.html5rocks.com/2014/12/fundamental-of-web-dev</a>"
+            },
+            "thread_id": 472817820,
+            "client_type": "Web",
+            "client_url": "https://www.yammer.com/",
+            "system_message": false,
+            "direct_message": false,
+            "chat_client_sequence": null,
+            "content_excerpt": "Fundamentos del desarrollo web para móviles:\n\nVideo y articulo\n\nhttp://updates.html5rocks.com/2014/12/fundamental-of-web-dev",
+            "language": "es",
+            "notified_user_ids": [],
+            "privacy": "public",
+            "attachments": [
+                {
+                    "id": 3515612442175200,
+                    "record_id": 351561196935738,
+                    "type": "ymodule",
+                    "name": "Fundamentals of Mobile Web Development - HTML5 Rocks",
+                    "description": "A quick look at some of the efforts the Chrome team are doing to helps developers get started with Web Development and iterate on their sites.",
+                    "web_url": "http://updates.html5rocks.com/2014/12/fundamental-of-web-dev",
+                    "thumbnail_url": "http://updates.html5rocks.com/assets/2014-12-02-fundamentals-of-web-dev/image00-e51498eb81f008efb104e2f67bd1a4b4.png",
+                    "object_type": "page",
+                    "object_name": "HTML5 Rocks - A resource for open web HTML5 developers",
+                    "host_url": "updates.html5rocks.com",
+                    "inline_url": "blank.html",
+                    "inline_html": "<div class=\"yj-open-graph-object ymodule-instance\" data-ymodule-instance=\"3515612442175200\">\n  <div class=\"ymodule-instance-3515612442175200-container-1 yj-open-graph-image yj-open-graph-contents\">\n    <div class=\"yj-thumbnail\">\n      <a href=\"http://updates.html5rocks.com/2014/12/fundamental-of-web-dev\" target=\"_blank\" rel=\"nofollow noreferrer\">\n        <img src=\"https://i.embed.ly/?key=4d90b544096f11e084894040444cdc60&amp;url=http%3A%2F%2Fupdates.html5rocks.com%2Fassets%2F2014-12-02-fundamentals-of-web-dev%2Fimage00-e51498eb81f008efb104e2f67bd1a4b4.png&amp;maxheight=100\" alt=\"\" class=\"yj-icon\" />\n      </a>\n    </div>\n    <h5 class=\"yj-title\">\n      <span><a href=\"http://updates.html5rocks.com/2014/12/fundamental-of-web-dev\" target=\"_blank\" rel=\"nofollow noreferrer\"\n          >\n        Fundamentals of Mobile Web Development - HTML5 Rocks\n      </a></span>\n    </h5>\n    <h6 class=\"yj-subtitle\">\n      <span>updates.html5rocks.com</span>\n    </h6>\n    <p class=\"yj-description\">\n      <span>A quick look at some of the efforts the Chrome team are doing to helps developers get started with Web Development and iterate on their sites.</span>\n    </p>\n  </div>\n  <div class=\"yj-actions-container\"></div>\n</div>\n",
+                    "ymodule": {
+                        "web_app_id": "open_graph_object",
+                        "app_id": "blank",
+                        "icon_url": "blank.gif"
+                    }
+                }
+            ],
+            "liked_by": {
+                "count": 2,
+                "names": [
+                    {
+                        "full_name": "Sisco",
+                        "permalink": "fvillar",
+                        "user_id": 517824,
+                        "network_id": 50070
+                    },
+                    {
+                        "full_name": "Alberto Gómez",
+                        "permalink": "agomez",
+                        "user_id": 1490439227,
+                        "network_id": 50070
+                    }
+                ]
+            },
+            "group_created_id": 3935898
+        },
+        {
+            "id": 472806174,
+            "sender_id": 1513149899,
+            "replied_to_id": 472354740,
+            "created_at": "2014/12/05 16:42:04 +0000",
+            "network_id": 50070,
+            "message_type": "update",
+            "sender_type": "user",
+            "url": "https://www.yammer.com/api/v1/messages/472806174",
+            "web_url": "https://www.yammer.com/encamina.com/messages/472806174",
+            "body": {
+                "parsed": "Fantasma donde estas????.\nDespués del simulacro, empieza el verdadero curro este finde semana. \nA ver si localizamos el Ghost-Bug que nos atormenta.\nEl martes contamos el final de la película en Expedientes 2.0 Arquitectura Sangrienta!!!!!",
+                "plain": "Fantasma donde estas????.\nDespués del simulacro, empieza el verdadero curro este finde semana.\nA ver si localizamos el Ghost-Bug que nos atormenta.\nEl martes contamos el final de la película en Expedientes 2.0 Arquitectura Sangrienta!!!!!",
+                "rich": "Fantasma donde estas????.<br>Después del simulacro, empieza el verdadero curro este finde semana. <br>A ver si localizamos el Ghost-Bug que nos atormenta.<br>El martes contamos el final de la película en Expedientes 2.0 Arquitectura Sangrienta!!!!!"
+            },
+            "thread_id": 472354740,
+            "client_type": "Android",
+            "client_url": "https://about.yammer.com/product/mobile/android/",
+            "system_message": false,
+            "direct_message": false,
+            "chat_client_sequence": null,
+            "content_excerpt": "Fantasma donde estas????.\nDespués del simulacro, empieza el verdadero curro este finde semana.\nA ver si localizamos el Ghost-Bug que nos atormenta.\nEl martes contamos el final de la película en Expedientes 2.0 Arquitectura Sangrienta!!!!!",
+            "language": "es",
+            "notified_user_ids": [],
+            "privacy": "public",
+            "attachments": [
+                {
+                    "id": 27776443,
+                    "network_id": 50070,
+                    "url": "https://www.yammer.com/api/v1/uploaded_files/27776443",
+                    "web_url": "https://www.yammer.com/encamina.com/uploaded_files/27776443",
+                    "type": "image",
+                    "name": "DSC_1026.JPG",
+                    "original_name": "DSC_1026.JPG",
+                    "full_name": "DSC_1026",
+                    "description": "",
+                    "content_type": "image/jpeg",
+                    "content_class": "Image",
+                    "created_at": "2014/12/05 16:39:42 +0000",
+                    "owner_id": 1513149899,
+                    "owner_type": "user",
+                    "official": false,
+                    "small_icon_url": "https://c64.assets-yammer.com/images/file_icons/types/picture_orange_39x50_icon.png",
+                    "large_icon_url": "https://c64.assets-yammer.com/images/file_icons/types/picture_orange_79x102_icon.png",
+                    "download_url": "https://www.yammer.com/api/v1/uploaded_files/27776443/download",
+                    "thumbnail_url": "https://www.yammer.com/api/v1/uploaded_files/27776443/version/26701760/thumbnail",
+                    "preview_url": "https://www.yammer.com/api/v1/uploaded_files/27776443/preview/DSC_1026.JPG",
+                    "large_preview_url": "https://www.yammer.com/api/v1/uploaded_files/27776443/version/26701760/large_preview/DSC_1026.JPG",
+                    "size": 1565942,
+                    "last_uploaded_at": "2014/12/05 16:39:46 +0000",
+                    "last_uploaded_by_id": 1513149899,
+                    "last_uploaded_by_type": "user",
+                    "uuid": null,
+                    "transcoded": null,
+                    "streaming_url": null,
+                    "path": "50070/27776443/DSC_1026.JPG",
+                    "y_id": 27776443,
+                    "overlay_url": "https://www.yammer.com/api/v1/uploaded_files/27776443/version/26701760/preview/DSC_1026.JPG",
+                    "privacy": "public",
+                    "group_id": null,
+                    "height": 2204,
+                    "width": 3920,
+                    "scaled_url": "https://www.yammer.com/api/v1/uploaded_files/27776443/version/26701760/scaled/{{width}}x{{height}}",
+                    "image": {
+                        "url": "https://www.yammer.com/api/v1/uploaded_files/27776443/preview/DSC_1026.JPG",
+                        "size": 1565942,
+                        "thumbnail_url": "https://www.yammer.com/api/v1/uploaded_files/27776443/version/26701760/thumbnail"
+                    },
+                    "real_type": "uploaded_file"
+                },
+                {
+                    "id": 27776459,
+                    "network_id": 50070,
+                    "url": "https://www.yammer.com/api/v1/uploaded_files/27776459",
+                    "web_url": "https://www.yammer.com/encamina.com/uploaded_files/27776459",
+                    "type": "image",
+                    "name": "DSC_1027.JPG",
+                    "original_name": "DSC_1027.JPG",
+                    "full_name": "DSC_1027",
+                    "description": "",
+                    "content_type": "image/jpeg",
+                    "content_class": "Image",
+                    "created_at": "2014/12/05 16:40:03 +0000",
+                    "owner_id": 1513149899,
+                    "owner_type": "user",
+                    "official": false,
+                    "small_icon_url": "https://c64.assets-yammer.com/images/file_icons/types/picture_orange_39x50_icon.png",
+                    "large_icon_url": "https://c64.assets-yammer.com/images/file_icons/types/picture_orange_79x102_icon.png",
+                    "download_url": "https://www.yammer.com/api/v1/uploaded_files/27776459/download",
+                    "thumbnail_url": "https://www.yammer.com/api/v1/uploaded_files/27776459/version/26701778/thumbnail",
+                    "preview_url": "https://www.yammer.com/api/v1/uploaded_files/27776459/preview/DSC_1027.JPG",
+                    "large_preview_url": "https://www.yammer.com/api/v1/uploaded_files/27776459/version/26701778/large_preview/DSC_1027.JPG",
+                    "size": 1850330,
+                    "last_uploaded_at": "2014/12/05 16:40:09 +0000",
+                    "last_uploaded_by_id": 1513149899,
+                    "last_uploaded_by_type": "user",
+                    "uuid": null,
+                    "transcoded": null,
+                    "streaming_url": null,
+                    "path": "50070/27776459/DSC_1027.JPG",
+                    "y_id": 27776459,
+                    "overlay_url": "https://www.yammer.com/api/v1/uploaded_files/27776459/version/26701778/preview/DSC_1027.JPG",
+                    "privacy": "public",
+                    "group_id": null,
+                    "height": 2204,
+                    "width": 3920,
+                    "scaled_url": "https://www.yammer.com/api/v1/uploaded_files/27776459/version/26701778/scaled/{{width}}x{{height}}",
+                    "image": {
+                        "url": "https://www.yammer.com/api/v1/uploaded_files/27776459/preview/DSC_1027.JPG",
+                        "size": 1850330,
+                        "thumbnail_url": "https://www.yammer.com/api/v1/uploaded_files/27776459/version/26701778/thumbnail"
+                    },
+                    "real_type": "uploaded_file"
+                }
+            ],
+            "liked_by": {
+                "count": 2,
+                "names": [
+                    {
+                        "full_name": "Iwan van der Kleijn",
+                        "permalink": "ivanderkleijn",
+                        "user_id": 1491684659,
+                        "network_id": 50070
+                    },
+                    {
+                        "full_name": "Adrian Diaz",
+                        "permalink": "adiaz",
+                        "user_id": 1492003504,
+                        "network_id": 50070
+                    }
+                ]
+            },
+            "group_created_id": null
+        },
+        {
+            "id": 472789248,
+            "sender_id": 859645,
+            "replied_to_id": 472646655,
+            "created_at": "2014/12/05 16:04:07 +0000",
+            "network_id": 50070,
+            "message_type": "update",
+            "sender_type": "user",
+            "url": "https://www.yammer.com/api/v1/messages/472789248",
+            "web_url": "https://www.yammer.com/encamina.com/messages/472789248",
+            "body": {
+                "parsed": "Claramente ha habido cambios. Que proteja quien lo haya desprotegido. :-P .",
+                "plain": "Claramente ha habido cambios. Que proteja quien lo haya desprotegido. :-P .",
+                "rich": "Claramente ha habido cambios. Que proteja quien lo haya desprotegido. :-P ."
+            },
+            "thread_id": 472646655,
+            "client_type": "Web",
+            "client_url": "https://www.yammer.com/",
+            "system_message": false,
+            "direct_message": false,
+            "chat_client_sequence": null,
+            "content_excerpt": "Claramente ha habido cambios. Que proteja quien lo haya desprotegido. :-P .",
+            "language": "es",
+            "notified_user_ids": [],
+            "privacy": "public",
+            "attachments": [],
+            "liked_by": {
+                "count": 0,
+                "names": []
+            },
+            "group_created_id": null
+        },
+        {
+            "id": 472772591,
+            "sender_id": 1491684659,
+            "replied_to_id": null,
+            "created_at": "2014/12/05 15:30:22 +0000",
+            "network_id": 50070,
+            "message_type": "update",
+            "sender_type": "user",
+            "url": "https://www.yammer.com/api/v1/messages/472772591",
+            "web_url": "https://www.yammer.com/encamina.com/messages/472772591",
+            "group_id": 4649065,
+            "body": {
+                "urls": [
+                    "http://typesetinthefuture.com/alien/"
+                ],
+                "parsed": "Para el finde\n\n\"..Typeset In The Future: The Alien Edition....\"\n\nhttp://typesetinthefuture.com/alien/",
+                "plain": "Para el finde\n\n\"..Typeset In The Future: The Alien Edition....\"\n\nhttp://typesetinthefuture.com/alien/",
+                "rich": "Para el finde<br><br>\"..Typeset In The Future: The Alien Edition....\"<br><br><a class=\"linkified\" href=\"http://typesetinthefuture.com/alien/\" target=\"_blank\" rel=\"nofollow noreferrer\">http://typesetinthefuture.com/alien/</a>"
+            },
+            "thread_id": 472772591,
+            "client_type": "Web",
+            "client_url": "https://www.yammer.com/",
+            "system_message": false,
+            "direct_message": false,
+            "chat_client_sequence": null,
+            "content_excerpt": "Para el finde\n\n\"..Typeset In The Future: The Alien Edition....\"\n\nhttp://typesetinthefuture.com/alien/",
+            "language": "en",
+            "notified_user_ids": [],
+            "privacy": "public",
+            "attachments": [
+                {
+                    "id": 3515612442060791,
+                    "record_id": 351561196928820,
+                    "type": "ymodule",
+                    "name": "Typeset In The Future",
+                    "description": "My third post about typography in sci-fi has been gestating for a while now. Indeed, it's been slowly taking shape - you might say it's been forming itself inside of me - for really quite some time.",
+                    "web_url": "http://typesetinthefuture.com/alien/",
+                    "thumbnail_url": "http://typesetinthefuture.com/postfiles/alien/0_01_16_enhance.jpg",
+                    "object_type": "page",
+                    "object_name": "Typesetinthefuture",
+                    "host_url": "typesetinthefuture.com",
+                    "inline_url": "blank.html",
+                    "inline_html": "<div class=\"yj-open-graph-object ymodule-instance\" data-ymodule-instance=\"3515612442060791\">\n  <div class=\"ymodule-instance-3515612442060791-container-1 yj-open-graph-image yj-open-graph-contents\">\n    <div class=\"yj-thumbnail\">\n      <a href=\"http://typesetinthefuture.com/alien/\" target=\"_blank\" rel=\"nofollow noreferrer\">\n        <img src=\"https://i.embed.ly/?key=4d90b544096f11e084894040444cdc60&amp;url=http%3A%2F%2Ftypesetinthefuture.com%2Fpostfiles%2Falien%2F0_01_16_enhance.jpg&amp;maxheight=100\" alt=\"\" class=\"yj-icon\" />\n      </a>\n    </div>\n    <h5 class=\"yj-title\">\n      <span><a href=\"http://typesetinthefuture.com/alien/\" target=\"_blank\" rel=\"nofollow noreferrer\"\n          >\n        Typeset In The Future\n      </a></span>\n    </h5>\n    <h6 class=\"yj-subtitle\">\n      <span>typesetinthefuture.com</span>\n    </h6>\n    <p class=\"yj-description\">\n      <span>My third post about typography in sci-fi has been gestating for a while now. Indeed, it's been slowly taking shape - you might say it's been forming itself inside of me - for really quite some time.</span>\n    </p>\n  </div>\n  <div class=\"yj-actions-container\"></div>\n</div>\n",
+                    "ymodule": {
+                        "web_app_id": "open_graph_object",
+                        "app_id": "blank",
+                        "icon_url": "blank.gif"
+                    }
+                }
+            ],
+            "liked_by": {
+                "count": 1,
+                "names": [
+                    {
+                        "full_name": "Alberto Gómez",
+                        "permalink": "agomez",
+                        "user_id": 1490439227,
+                        "network_id": 50070
+                    }
+                ]
+            },
+            "group_created_id": 4649065
+        },
+        {
+            "id": 472759940,
+            "sender_id": 1491684659,
+            "replied_to_id": 472646655,
+            "created_at": "2014/12/05 15:03:08 +0000",
+            "network_id": 50070,
+            "message_type": "update",
+            "sender_type": "user",
+            "url": "https://www.yammer.com/api/v1/messages/472759940",
+            "web_url": "https://www.yammer.com/encamina.com/messages/472759940",
+            "body": {
+                "parsed": "Respuesta ha sido, claramente (visto a las 15:00) : ...no...\n :-/",
+                "plain": "Respuesta ha sido, claramente (visto a las 15:00) : ...no...\n:-/",
+                "rich": "Respuesta ha sido, claramente (visto a las 15:00) : ...no...<br> :-/"
+            },
+            "thread_id": 472646655,
+            "client_type": "Web",
+            "client_url": "https://www.yammer.com/",
+            "system_message": false,
+            "direct_message": false,
+            "chat_client_sequence": null,
+            "content_excerpt": "Respuesta ha sido, claramente (visto a las 15:00) : ...no...\n:-/",
+            "language": "es",
+            "notified_user_ids": [],
+            "privacy": "public",
+            "attachments": [],
+            "liked_by": {
+                "count": 0,
+                "names": []
+            },
+            "group_created_id": null
+        },
+        {
+            "id": 472749099,
+            "sender_id": 1491684659,
+            "replied_to_id": null,
+            "created_at": "2014/12/05 14:40:24 +0000",
+            "network_id": 50070,
+            "message_type": "update",
+            "sender_type": "user",
+            "url": "https://www.yammer.com/api/v1/messages/472749099",
+            "web_url": "https://www.yammer.com/encamina.com/messages/472749099",
+            "group_id": 4918819,
+            "body": {
+                "parsed": "Hola caballer(o|a)s,\n\nRetos para martes 9 de diciembre por la mañana:\n\n - Entrega de versión 0.1.19 que tendrá solucionado todo que nos ha reportado el cliente (Adri/Alberto)\n\n - Estado de pruebas (Cristina)\n\n - Procedimiento de despliegue para el cliente (Iwan)\n\n - Diseño técnico  (Iwan)\n\nHacemos el scrum a las 9:15, ok?\n\nBuen finde/puente",
+                "plain": "Hola caballer(o|a)s,\n\nRetos para martes 9 de diciembre por la mañana:\n\n- Entrega de versión 0.1.19 que tendrá solucionado todo que nos ha reportado el cliente (Adri/Alberto)\n\n- Estado de pruebas (Cristina)\n\n- Procedimiento de despliegue para el cliente (Iwan)\n\n- Diseño técnico (Iwan)\n\nHacemos el scrum a las 9:15, ok?\n\nBuen finde/puente",
+                "rich": "Hola caballer(o|a)s,<br><br>Retos para martes 9 de diciembre por la mañana:<br><br> - Entrega de versión 0.1.19 que tendrá solucionado todo que nos ha reportado el cliente (Adri/Alberto)<br><br> - Estado de pruebas (Cristina)<br><br> - Procedimiento de despliegue para el cliente (Iwan)<br><br> - Diseño técnico  (Iwan)<br><br>Hacemos el scrum a las 9:15, ok?<br><br>Buen finde/puente"
+            },
+            "thread_id": 472749099,
+            "client_type": "Web",
+            "client_url": "https://www.yammer.com/",
+            "system_message": false,
+            "direct_message": false,
+            "chat_client_sequence": null,
+            "content_excerpt": "Hola caballer(o|a)s,\n\nRetos para martes 9 de diciembre por la mañana:\n\n- Entrega de versión 0.1.19 que tendrá solucionado todo que nos ha reportado el cliente (Adri/Alberto)\n\n- Estado de pruebas (Cristina)\n\n- Procedimiento de despliegue para el cliente (Iwan)\n\n- Diseño técnico (Iwan)\n\nHacemos el scrum a las 9:15, ok?\n\nBuen finde/puente",
+            "language": "es",
+            "notified_user_ids": [],
+            "privacy": "private",
+            "attachments": [],
+            "liked_by": {
+                "count": 1,
+                "names": [
+                    {
+                        "full_name": "Alberto Jose Pedrera Ros",
+                        "permalink": "ajpedrera",
+                        "user_id": 1512402046,
+                        "network_id": 50070
+                    }
+                ]
+            },
+            "group_created_id": 4918819
+        },
+        {
+            "id": 472735252,
+            "sender_id": 1491684659,
+            "replied_to_id": null,
+            "created_at": "2014/12/05 14:10:44 +0000",
+            "network_id": 50070,
+            "message_type": "update",
+            "sender_type": "user",
+            "url": "https://www.yammer.com/api/v1/messages/472735252",
+            "web_url": "https://www.yammer.com/encamina.com/messages/472735252",
+            "group_id": 3935898,
+            "body": {
+                "urls": [
+                    "http://blogs.msdn.com/b/dotnet/archive/2014/12/04/introducing-net-core.aspx"
+                ],
+                "parsed": "\"...The .NET Core platform is a new .NET stack that is optimized for open source development and agile delivery on NuGet. We’re working with the Mono community to make it great on Windows, Linux and Mac, and Microsoft will support it on all three platforms....\"\n\nhttp://blogs.msdn.com/b/dotnet/archive/2014/12/04/introducing-net-core.aspx",
+                "plain": "\"...The .NET Core platform is a new .NET stack that is optimized for open source development and agile delivery on NuGet. We’re working with the Mono community to make it great on Windows, Linux and Mac, and Microsoft will support it on all three platforms....\"\n\nhttp://blogs.msdn.com/b/dotnet/archive/2014/12/04/introducing-net-core.aspx",
+                "rich": "\"...The .NET Core platform is a new .NET stack that is optimized for open source development and agile delivery on NuGet. We’re working with the Mono community to make it great on Windows, Linux and Mac, and Microsoft will support it on all three platforms....\"<br><br><a class=\"linkified\" href=\"http://blogs.msdn.com/b/dotnet/archive/2014/12/04/introducing-net-core.aspx\" title=\"http://blogs.msdn.com/b/dotnet/archive/2014/12/04/introducing-net-core.aspx\" target=\"_blank\" rel=\"nofollow noreferrer\">http://blogs.msdn.com/b/dotnet/archive/2014/12/04/introducin…</a>"
+            },
+            "thread_id": 472735252,
+            "client_type": "Web",
+            "client_url": "https://www.yammer.com/",
+            "system_message": false,
+            "direct_message": false,
+            "chat_client_sequence": null,
+            "content_excerpt": "\"...The .NET Core platform is a new .NET stack that is optimized for open source development and agile delivery on NuGet. We’re working with the Mono community to make it great on Windows, Linux and Mac, and Microsoft will support it on all three platforms....\"\n\nhttp://blogs.msdn.com/b/dotnet/archive/2014/12/04/introducing-net-core.aspx",
+            "language": "en",
+            "notified_user_ids": [],
+            "privacy": "public",
+            "attachments": [
+                {
+                    "id": 3515612441964732,
+                    "record_id": 351561196922948,
+                    "type": "ymodule",
+                    "name": ".NET Blog",
+                    "description": "At connect(), we announced that .NET Core will be entirely released as open source software. I also promised to follow up with more details on .NET Core. In this post, I'll provide an overview of .NET Core, how we're going to release it, how it relates to the .NET Framework, and what this means for cross-platform and open source development.",
+                    "web_url": "http://blogs.msdn.com/b/dotnet/archive/2014/12/04/introducing-net-core.aspx",
+                    "thumbnail_url": "http://sphotos-a.xx.fbcdn.net/hphotos-ash3/523742_181166922021751_1416161093_n.png",
+                    "object_type": "page",
+                    "object_name": ".NET Blog",
+                    "host_url": "blogs.msdn.com",
+                    "inline_url": "blank.html",
+                    "inline_html": "<div class=\"yj-open-graph-object ymodule-instance\" data-ymodule-instance=\"3515612441964732\">\n  <div class=\"ymodule-instance-3515612441964732-container-1 yj-open-graph-image yj-open-graph-contents\">\n    <div class=\"yj-thumbnail\">\n      <a href=\"http://blogs.msdn.com/b/dotnet/archive/2014/12/04/introducing-net-core.aspx\" target=\"_blank\" rel=\"nofollow noreferrer\">\n        <img src=\"https://i.embed.ly/?key=4d90b544096f11e084894040444cdc60&amp;url=http%3A%2F%2Fsphotos-a.xx.fbcdn.net%2Fhphotos-ash3%2F523742_181166922021751_1416161093_n.png&amp;maxheight=100\" alt=\"\" class=\"yj-icon\" />\n      </a>\n    </div>\n    <h5 class=\"yj-title\">\n      <span><a href=\"http://blogs.msdn.com/b/dotnet/archive/2014/12/04/introducing-net-core.aspx\" target=\"_blank\" rel=\"nofollow noreferrer\"\n          >\n        .NET Blog\n      </a></span>\n    </h5>\n    <h6 class=\"yj-subtitle\">\n      <span>blogs.msdn.com</span>\n    </h6>\n    <p class=\"yj-description\">\n      <span>At connect(), we announced that .NET Core will be entirely released as open source software. I also promised to follow up with more details on .NET Core. In this post, I'll provide an overview of .NET Core, how we're going to release it, how it relates to the .NET Framework, and what this means for cross-platform and open source development.</span>\n    </p>\n  </div>\n  <div class=\"yj-actions-container\"></div>\n</div>\n",
+                    "ymodule": {
+                        "web_app_id": "open_graph_object",
+                        "app_id": "blank",
+                        "icon_url": "blank.gif"
+                    }
+                }
+            ],
+            "liked_by": {
+                "count": 0,
+                "names": []
+            },
+            "group_created_id": 3935898
+        },
+        {
+            "id": 472731410,
+            "sender_id": 543940,
+            "replied_to_id": null,
+            "created_at": "2014/12/05 14:02:45 +0000",
+            "network_id": 50070,
+            "message_type": "update",
+            "sender_type": "user",
+            "url": "https://www.yammer.com/api/v1/messages/472731410",
+            "web_url": "https://www.yammer.com/encamina.com/messages/472731410",
+            "group_id": 4897328,
+            "body": {
+                "parsed": "Decisiones de PRODUCTO:\n1) Camikú será un producto digital, selfservice desde los marketplaces más comunes (inicialmente los de Microsoft), de carácter puramente empresarial, pero para usuarios finales de la empresa.\n2) El modelo de distribución será Freemium (aunque inicialmente se entregará full-equip)\n3) El alta de usuario exigirá un email corporativo, donde el dominio de dicho email será el ID vinculante entre usuarios que va a jugar con Camikú. i ya existen otros usuarios con ese dominio, el sistema propondrá las URLs de los servicios que tienen registrados dichos usuarios.\n4) Camikú facilitará a los usuarios a invitar a otros compañeros de su dominio (empresa)\n5) La promoción será digital (marketplaces y marketing digital), aprovechando los canales y concursos de Microsoft, y desde la propia venta b2b de nuestros comerciales.\n6) Para el día  que sea posible la descarga será necesario un condicionado legal que advierta sobre LOPD, disclaimer y explotación de los datos para fines de benchmark, etc. que deberá ser aprobado por el usuario.",
+                "plain": "Decisiones de PRODUCTO:\n1) Camikú será un producto digital, selfservice desde los marketplaces más comunes (inicialmente los de Microsoft), de carácter puramente empresarial, pero para usuarios finales de la empresa.\n2) El modelo de distribución será Freemium (aunque inicialmente se entregará full-equip)\n3) El alta de usuario exigirá un email corporativo, donde el dominio de dicho email será el ID vinculante entre usuarios que va a jugar con Camikú. i ya existen otros usuarios con ese dominio, el sistema propondrá las URLs de los servicios que tienen registrados dichos usuarios.\n4) Camikú facilitará a los usuarios a invitar a otros compañeros de su dominio (empresa)\n5) La promoción será digital (marketplaces y marketing digital), aprovechando los canales y concursos de Microsoft, y desde la propia venta b2b de nuestros comerciales.\n6) Para el día que sea posible la descarga será necesario un condicionado legal que advierta sobre LOPD, disclaimer y explotación de los datos para fines de benchmark, etc. que deberá ser aprobado por el usuario.",
+                "rich": "Decisiones de PRODUCTO:<br>1) Camikú será un producto digital, selfservice desde los marketplaces más comunes (inicialmente los de Microsoft), de carácter puramente empresarial, pero para usuarios finales de la empresa.<br>2) El modelo de distribución será Freemium (aunque inicialmente se entregará full-equip)<br>3) El alta de usuario exigirá un email corporativo, donde el dominio de dicho email será el ID vinculante entre usuarios que va a jugar con Camikú. i ya existen otros usuarios con ese dominio, el sistema propondrá las URLs de los servicios que tienen registrados dichos usuarios.<br>4) Camikú facilitará a los usuarios a invitar a otros compañeros de su dominio (empresa)<br>5) La promoción será digital (marketplaces y marketing digital), aprovechando los canales y concursos de Microsoft, y desde la propia venta b2b de nuestros comerciales.<br>6) Para el día  que sea posible la descarga será necesario un condicionado legal que advierta sobre LOPD, disclaimer y explotación de los datos para fines de benchmark, etc. que deberá ser aprobado por el usuario."
+            },
+            "thread_id": 472731410,
+            "client_type": "Web",
+            "client_url": "https://www.yammer.com/",
+            "system_message": false,
+            "direct_message": false,
+            "chat_client_sequence": null,
+            "content_excerpt": "Decisiones de PRODUCTO:\n1) Camikú será un producto digital, selfservice desde los marketplaces más comunes (inicialmente los de Microsoft), de carácter puramente empresarial, pero para usuarios finales de la empresa.\n2) El modelo de distribución será Freemium (aunque inicialmente se entregará full-equip)\n3) El alta de usuario exigirá un email corporativo, donde el dominio de dicho email será el ID vinculante entre usuarios que va a jugar con Camikú. i ya existen otros usuarios con ese dominio, el sistema propondrá las URLs de los servicios que tienen registrados dichos usuarios.\n4) Camikú facilitará a los usuarios a invitar a otros compañeros de su dominio (empresa)\n5) La promoción será digital (marketplaces y marketing digital), aprovechando los canales y concursos de Microsoft, y desde la propia venta b2b de nuestros comerciales.\n6) Para el día que sea posible la descarga será necesario un condicionado legal que advierta sobre LOPD, disclaimer y explotación de los datos para fines de benchmark, etc. que deberá ser aprobado por el usuario.",
+            "language": "es",
+            "notified_user_ids": [],
+            "privacy": "private",
+            "attachments": [],
+            "liked_by": {
+                "count": 2,
+                "names": [
+                    {
+                        "full_name": "Belen Sanz",
+                        "permalink": "bsanz",
+                        "user_id": 508967,
+                        "network_id": 50070
+                    },
+                    {
+                        "full_name": "Javier Menendez Pallo",
+                        "permalink": "jmenendez",
+                        "user_id": 1511638434,
+                        "network_id": 50070
+                    }
+                ]
+            },
+            "group_created_id": 4897328
+        },
+        {
+            "id": 472730497,
+            "sender_id": 1491684659,
+            "replied_to_id": 472730493,
+            "created_at": "2014/12/05 14:01:01 +0000",
+            "network_id": 50070,
+            "message_type": "system",
+            "sender_type": "user",
+            "url": "https://www.yammer.com/api/v1/messages/472730497",
+            "web_url": "https://www.yammer.com/encamina.com/messages/472730497",
+            "group_id": 4897328,
+            "body": {
+                "parsed": "added [[user:1517998880]] to the conversation.",
+                "plain": "added Pako Giménez to the conversation.",
+                "rich": "added <span class='yammer-object' data-yammer-object='user:1517998880' data-resource-id='1517998880' data-resource-model='user'><a href='https://www.yammer.com/encamina.com/users/pakogimenez'>Pako Giménez</a></span> to the conversation."
+            },
+            "thread_id": 472730493,
+            "client_type": "Web",
+            "client_url": "https://www.yammer.com/",
+            "system_message": true,
+            "direct_message": false,
+            "chat_client_sequence": null,
+            "content_excerpt": "added Pako Giménez to the conversation.",
+            "language": "en",
+            "notified_user_ids": [
+                1517998880
+            ],
+            "system_message_properties": {
+                "subtype": "added_participant"
+            },
+            "privacy": "private",
+            "attachments": [],
+            "liked_by": {
+                "count": 0,
+                "names": []
+            },
+            "group_created_id": 4897328
+        },
+        {
+            "id": 472730493,
+            "sender_id": 1491684659,
+            "replied_to_id": null,
+            "created_at": "2014/12/05 14:01:01 +0000",
+            "network_id": 50070,
+            "message_type": "update",
+            "sender_type": "user",
+            "url": "https://www.yammer.com/api/v1/messages/472730493",
+            "web_url": "https://www.yammer.com/encamina.com/messages/472730493",
+            "group_id": 4897328,
+            "body": {
+                "parsed": "Aqui [[user:508967]] , [[user:1517998880]] y [[user:1511638434]]  tenemos un hueco para hablar sobre Camikú y todo que esta involucrado.",
+                "plain": "Aqui Belen Sanz , Pako Giménez y Javier Menendez Pallo tenemos un hueco para hablar sobre Camikú y todo que esta involucrado.",
+                "rich": "Aqui <span class='yammer-object' data-yammer-object='user:508967' data-resource-id='508967' data-resource-model='user'><a href='https://www.yammer.com/encamina.com/users/bsanz'>Belen Sanz</a></span> , <span class='yammer-object' data-yammer-object='user:1517998880' data-resource-id='1517998880' data-resource-model='user'><a href='https://www.yammer.com/encamina.com/users/pakogimenez'>Pako Giménez</a></span> y <span class='yammer-object' data-yammer-object='user:1511638434' data-resource-id='1511638434' data-resource-model='user'><a href='https://www.yammer.com/encamina.com/users/jmenendez'>Javier Menendez Pallo</a></span>  tenemos un hueco para hablar sobre Camikú y todo que esta involucrado."
+            },
+            "thread_id": 472730493,
+            "client_type": "Web",
+            "client_url": "https://www.yammer.com/",
+            "system_message": false,
+            "direct_message": false,
+            "chat_client_sequence": null,
+            "content_excerpt": "Aqui Belen Sanz , Pako Giménez y Javier Menendez Pallo tenemos un hueco para hablar sobre Camikú y todo que esta involucrado.",
+            "language": "es",
+            "notified_user_ids": [
+                508967,
+                1517998880,
+                1511638434
+            ],
+            "privacy": "private",
+            "attachments": [],
+            "liked_by": {
+                "count": 0,
+                "names": []
+            },
+            "group_created_id": 4897328
+        },
+        {
+            "id": 472714327,
+            "sender_id": 1506042403,
+            "replied_to_id": 472701477,
+            "created_at": "2014/12/05 13:22:59 +0000",
+            "network_id": 50070,
+            "message_type": "update",
+            "sender_type": "user",
+            "url": "https://www.yammer.com/api/v1/messages/472714327",
+            "web_url": "https://www.yammer.com/encamina.com/messages/472714327",
+            "group_id": 63612,
+            "body": {
+                "parsed": "Será rosita y se llamará PeppaPig...",
+                "plain": "Será rosita y se llamará PeppaPig...",
+                "rich": "Será rosita y se llamará PeppaPig..."
+            },
+            "thread_id": 472701477,
+            "client_type": "Web",
+            "client_url": "https://www.yammer.com/",
+            "system_message": false,
+            "direct_message": false,
+            "chat_client_sequence": null,
+            "content_excerpt": "Será rosita y se llamará PeppaPig...",
+            "language": "es",
+            "notified_user_ids": [],
+            "privacy": "public",
+            "attachments": [],
+            "liked_by": {
+                "count": 2,
+                "names": [
+                    {
+                        "full_name": "Paula Piqueras",
+                        "permalink": "ppiqueras",
+                        "user_id": 1518937860,
+                        "network_id": 50070
+                    },
+                    {
+                        "full_name": "Jose Gimenez",
+                        "permalink": "jgimenez",
+                        "user_id": 1522984400,
+                        "network_id": 50070
+                    }
+                ]
+            },
+            "group_created_id": 63612
+        },
+        {
+            "id": 472705005,
+            "sender_id": 518216,
+            "replied_to_id": 472701477,
+            "created_at": "2014/12/05 12:57:20 +0000",
+            "network_id": 50070,
+            "message_type": "update",
+            "sender_type": "user",
+            "url": "https://www.yammer.com/api/v1/messages/472705005",
+            "web_url": "https://www.yammer.com/encamina.com/messages/472705005",
+            "group_id": 63612,
+            "body": {
+                "parsed": "Amarillo nooooo!!!! No lo tocarán mis manos jjjj",
+                "plain": "Amarillo nooooo!!!! No lo tocarán mis manos jjjj",
+                "rich": "Amarillo nooooo!!!! No lo tocarán mis manos jjjj"
+            },
+            "thread_id": 472701477,
+            "client_type": "Web",
+            "client_url": "https://www.yammer.com/",
+            "system_message": false,
+            "direct_message": false,
+            "chat_client_sequence": null,
+            "content_excerpt": "Amarillo nooooo!!!! No lo tocarán mis manos jjjj",
+            "language": "es",
+            "notified_user_ids": [],
+            "privacy": "public",
+            "attachments": [],
+            "liked_by": {
+                "count": 1,
+                "names": [
+                    {
+                        "full_name": "Adrian Diaz",
+                        "permalink": "adiaz",
+                        "user_id": 1492003504,
+                        "network_id": 50070
+                    }
+                ]
+            },
+            "group_created_id": 63612
+        },
+        {
+            "id": 472701477,
+            "sender_id": 1522984400,
+            "replied_to_id": null,
+            "created_at": "2014/12/05 12:48:02 +0000",
+            "network_id": 50070,
+            "message_type": "update",
+            "sender_type": "user",
+            "url": "https://www.yammer.com/api/v1/messages/472701477",
+            "web_url": "https://www.yammer.com/encamina.com/messages/472701477",
+            "group_id": 63612,
+            "body": {
+                "parsed": "Hace falta otro cerdito. Que sea amarillo.",
+                "plain": "Hace falta otro cerdito. Que sea amarillo.",
+                "rich": "Hace falta otro cerdito. Que sea amarillo."
+            },
+            "thread_id": 472701477,
+            "client_type": "Web",
+            "client_url": "https://www.yammer.com/",
+            "system_message": false,
+            "direct_message": false,
+            "chat_client_sequence": null,
+            "content_excerpt": "Hace falta otro cerdito. Que sea amarillo.",
+            "language": "it",
+            "notified_user_ids": [],
+            "privacy": "public",
+            "attachments": [
+                {
+                    "id": 27747135,
+                    "network_id": 50070,
+                    "url": "https://www.yammer.com/api/v1/uploaded_files/27747135",
+                    "web_url": "https://www.yammer.com/encamina.com/uploaded_files/27747135",
+                    "type": "image",
+                    "name": "20141205_101705.jpg",
+                    "original_name": "20141205_101705.jpg",
+                    "full_name": "20141205_101705",
+                    "description": "",
+                    "content_type": "image/jpeg",
+                    "content_class": "Image",
+                    "created_at": "2014/12/05 09:19:51 +0000",
+                    "owner_id": 518216,
+                    "owner_type": "user",
+                    "official": false,
+                    "small_icon_url": "https://c64.assets-yammer.com/images/file_icons/types/picture_orange_39x50_icon.png",
+                    "large_icon_url": "https://c64.assets-yammer.com/images/file_icons/types/picture_orange_79x102_icon.png",
+                    "download_url": "https://www.yammer.com/api/v1/uploaded_files/27747135/download",
+                    "thumbnail_url": "https://www.yammer.com/api/v1/uploaded_files/27747135/version/26672042/thumbnail",
+                    "preview_url": "https://www.yammer.com/api/v1/uploaded_files/27747135/preview/20141205_101705.jpg",
+                    "large_preview_url": "https://www.yammer.com/api/v1/uploaded_files/27747135/version/26672042/large_preview/20141205_101705.jpg",
+                    "size": 842625,
+                    "last_uploaded_at": "2014/12/05 09:19:53 +0000",
+                    "last_uploaded_by_id": 518216,
+                    "last_uploaded_by_type": "user",
+                    "uuid": null,
+                    "transcoded": null,
+                    "streaming_url": null,
+                    "path": "50070/27747135/20141205_101705.jpg",
+                    "y_id": 27747135,
+                    "overlay_url": "https://www.yammer.com/api/v1/uploaded_files/27747135/version/26672042/preview/20141205_101705.jpg",
+                    "privacy": "public",
+                    "group_id": null,
+                    "height": 1344,
+                    "width": 2240,
+                    "scaled_url": "https://www.yammer.com/api/v1/uploaded_files/27747135/version/26672042/scaled/{{width}}x{{height}}",
+                    "image": {
+                        "url": "https://www.yammer.com/api/v1/uploaded_files/27747135/preview/20141205_101705.jpg",
+                        "size": 842625,
+                        "thumbnail_url": "https://www.yammer.com/api/v1/uploaded_files/27747135/version/26672042/thumbnail"
+                    },
+                    "real_type": "uploaded_file"
+                }
+            ],
+            "liked_by": {
+                "count": 0,
+                "names": []
+            },
+            "group_created_id": 63612
+        }
+    ],
+    "references": [
+        {
+            "type": "user",
+            "id": 1491684659,
+            "name": "ivanderkleijn",
+            "state": "active",
+            "full_name": "Iwan van der Kleijn",
+            "job_title": "guirigrisyraro",
+            "network_id": 50070,
+            "mugshot_url": "https://mug0.assets-yammer.com/mugshot/images/48x48/VH8LJHhg0xgCFnH2-VSTHhFM1DMTPwC5",
+            "mugshot_url_template": "https://mug0.assets-yammer.com/mugshot/images/{width}x{height}/VH8LJHhg0xgCFnH2-VSTHhFM1DMTPwC5",
+            "url": "https://www.yammer.com/api/v1/users/1491684659",
+            "web_url": "https://www.yammer.com/encamina.com/users/ivanderkleijn",
+            "activated_at": "2012/12/26 08:29:23 +0000",
+            "stats": {
+                "following": 57,
+                "followers": 51,
+                "updates": 238
+            }
+        },
+        {
+            "type": "user",
+            "id": 508964,
+            "name": "jaranzabal",
+            "state": "active",
+            "full_name": "Jorge Aranzabal",
+            "job_title": "jaranzabal",
+            "network_id": 50070,
+            "mugshot_url": "https://mug0.assets-yammer.com/mugshot/images/48x48/Dn6kPFm-326hRK5vXwhJvcWkW1Q7JQCt",
+            "mugshot_url_template": "https://mug0.assets-yammer.com/mugshot/images/{width}x{height}/Dn6kPFm-326hRK5vXwhJvcWkW1Q7JQCt",
+            "url": "https://www.yammer.com/api/v1/users/508964",
+            "web_url": "https://www.yammer.com/encamina.com/users/jaranzabal",
+            "activated_at": "2009/06/11 06:08:22 +0000",
+            "stats": {
+                "following": 51,
+                "followers": 53,
+                "updates": 632
+            }
+        },
+        {
+            "type": "user",
+            "id": 475184,
+            "name": "fgimenez",
+            "state": "active",
+            "full_name": "Francisco Gimenez Rodriguez",
+            "job_title": "ENCAMINA, S.L.",
+            "network_id": 50070,
+            "mugshot_url": "https://mug0.assets-yammer.com/mugshot/images/48x48/bWFd6Hsqfg6NPSKMkzP4ZD3H7F7vFpFq",
+            "mugshot_url_template": "https://mug0.assets-yammer.com/mugshot/images/{width}x{height}/bWFd6Hsqfg6NPSKMkzP4ZD3H7F7vFpFq",
+            "url": "https://www.yammer.com/api/v1/users/475184",
+            "web_url": "https://www.yammer.com/encamina.com/users/fgimenez",
+            "activated_at": "2009/05/26 15:01:58 +0000",
+            "stats": {
+                "following": 58,
+                "followers": 53,
+                "updates": 1062
+            }
+        },
+        {
+            "type": "user",
+            "id": 1513149899,
+            "name": "shernandez",
+            "state": "active",
+            "full_name": "sergio hernandez",
+            "job_title": "Desarrollador",
+            "network_id": 50070,
+            "mugshot_url": "https://mug0.assets-yammer.com/mugshot/images/48x48/lmGRjbzFhhsNgFkx0pJCVjllbzCWWXXx",
+            "mugshot_url_template": "https://mug0.assets-yammer.com/mugshot/images/{width}x{height}/lmGRjbzFhhsNgFkx0pJCVjllbzCWWXXx",
+            "url": "https://www.yammer.com/api/v1/users/1513149899",
+            "web_url": "https://www.yammer.com/encamina.com/users/shernandez",
+            "activated_at": "2014/03/10 11:03:04 +0000",
+            "stats": {
+                "following": 35,
+                "followers": 31,
+                "updates": 0
+            }
+        },
+        {
+            "type": "user",
+            "id": 1492003504,
+            "name": "adiaz",
+            "state": "active",
+            "full_name": "Adrian Diaz",
+            "job_title": "SharePoint Architect",
+            "network_id": 50070,
+            "mugshot_url": "https://mug0.assets-yammer.com/mugshot/images/48x48/jGsptg5HGcWp7NJqqpLLW2LJ0Xxr8v9B",
+            "mugshot_url_template": "https://mug0.assets-yammer.com/mugshot/images/{width}x{height}/jGsptg5HGcWp7NJqqpLLW2LJ0Xxr8v9B",
+            "url": "https://www.yammer.com/api/v1/users/1492003504",
+            "web_url": "https://www.yammer.com/encamina.com/users/adiaz",
+            "activated_at": "2012/12/28 10:19:28 +0000",
+            "stats": {
+                "following": 53,
+                "followers": 50,
+                "updates": 248
+            }
+        },
+        {
+            "type": "user",
+            "id": 518216,
+            "name": "osese",
+            "state": "active",
+            "full_name": "Olga Sesé Morales",
+            "job_title": "Administración",
+            "network_id": 50070,
+            "mugshot_url": "https://mug0.assets-yammer.com/mugshot/images/48x48/rSpX08lZ03XfHLFmGvHvJstdk3Prtc3h",
+            "mugshot_url_template": "https://mug0.assets-yammer.com/mugshot/images/{width}x{height}/rSpX08lZ03XfHLFmGvHvJstdk3Prtc3h",
+            "url": "https://www.yammer.com/api/v1/users/518216",
+            "web_url": "https://www.yammer.com/encamina.com/users/osese",
+            "activated_at": "2009/06/11 14:00:27 +0000",
+            "stats": {
+                "following": 53,
+                "followers": 49,
+                "updates": 223
+            }
+        },
+        {
+            "type": "user",
+            "id": 859645,
+            "name": "cpueyo",
+            "state": "active",
+            "full_name": "Mª Cristina Pueyo Rubio",
+            "job_title": "",
+            "network_id": 50070,
+            "mugshot_url": "https://mug0.assets-yammer.com/mugshot/images/48x48/b95--64zmNRVt4pSFNNVcWsjQRTvBcdh",
+            "mugshot_url_template": "https://mug0.assets-yammer.com/mugshot/images/{width}x{height}/b95--64zmNRVt4pSFNNVcWsjQRTvBcdh",
+            "url": "https://www.yammer.com/api/v1/users/859645",
+            "web_url": "https://www.yammer.com/encamina.com/users/cpueyo",
+            "activated_at": "2009/10/23 12:42:50 +0000",
+            "stats": {
+                "following": 55,
+                "followers": 44,
+                "updates": 48
+            }
+        },
+        {
+            "type": "user",
+            "id": 543940,
+            "name": "hdejuan",
+            "state": "active",
+            "full_name": "hugo de juan",
+            "job_title": "Dtor. Ejecutivo / CEO",
+            "network_id": 50070,
+            "mugshot_url": "https://mug0.assets-yammer.com/mugshot/images/48x48/zDLrK6lZBwNzhFcz-wMBXfhmr55c0D4S",
+            "mugshot_url_template": "https://mug0.assets-yammer.com/mugshot/images/{width}x{height}/zDLrK6lZBwNzhFcz-wMBXfhmr55c0D4S",
+            "url": "https://www.yammer.com/api/v1/users/543940",
+            "web_url": "https://www.yammer.com/encamina.com/users/hdejuan",
+            "activated_at": "2009/06/24 15:46:53 +0000",
+            "stats": {
+                "following": 61,
+                "followers": 54,
+                "updates": 1525
+            }
+        },
+        {
+            "type": "user",
+            "id": 1517998880,
+            "name": "pakogimenez",
+            "state": "pending",
+            "full_name": "Pako Giménez",
+            "job_title": null,
+            "network_id": 50070,
+            "mugshot_url": "https://mug0.assets-yammer.com/mugshot/images/48x48/no_photo.png",
+            "mugshot_url_template": "https://mug0.assets-yammer.com/mugshot/images/{width}x{height}/no_photo.png",
+            "url": "https://www.yammer.com/api/v1/users/1517998880",
+            "web_url": "https://www.yammer.com/encamina.com/users/pakogimenez",
+            "activated_at": null,
+            "stats": {
+                "following": 5,
+                "followers": 0,
+                "updates": 0
+            }
+        },
+        {
+            "type": "user",
+            "id": 508967,
+            "name": "bsanz",
+            "state": "active",
+            "full_name": "Belen Sanz",
+            "job_title": "Responsable de Marketing y Comunicación",
+            "network_id": 50070,
+            "mugshot_url": "https://mug0.assets-yammer.com/mugshot/images/48x48/NR1LCT6PHv0zlSFWp-Z4frzKGS8LVdM4",
+            "mugshot_url_template": "https://mug0.assets-yammer.com/mugshot/images/{width}x{height}/NR1LCT6PHv0zlSFWp-Z4frzKGS8LVdM4",
+            "url": "https://www.yammer.com/api/v1/users/508967",
+            "web_url": "https://www.yammer.com/encamina.com/users/bsanz",
+            "activated_at": "2009/06/08 19:01:58 +0000",
+            "stats": {
+                "following": 62,
+                "followers": 56,
+                "updates": 587
+            }
+        },
+        {
+            "type": "user",
+            "id": 1511638434,
+            "name": "jmenendez",
+            "state": "active",
+            "full_name": "Javier Menendez Pallo",
+            "job_title": "Director de Oficina",
+            "network_id": 50070,
+            "mugshot_url": "https://mug0.assets-yammer.com/mugshot/images/48x48/WzgTVWzpWnFPg2rdw40JMCS23PJwWNWj",
+            "mugshot_url_template": "https://mug0.assets-yammer.com/mugshot/images/{width}x{height}/WzgTVWzpWnFPg2rdw40JMCS23PJwWNWj",
+            "url": "https://www.yammer.com/api/v1/users/1511638434",
+            "web_url": "https://www.yammer.com/encamina.com/users/jmenendez",
+            "activated_at": "2014/02/18 11:38:29 +0000",
+            "stats": {
+                "following": 51,
+                "followers": 44,
+                "updates": 0
+            }
+        },
+        {
+            "type": "user",
+            "id": 1522984400,
+            "name": "jgimenez",
+            "state": "active",
+            "full_name": "Jose Gimenez",
+            "job_title": "Gerente de Cuentas",
+            "network_id": 50070,
+            "mugshot_url": "https://mug0.assets-yammer.com/mugshot/images/48x48/TS6XNs6nWKqjGc5k1vXXNQPV9chQrZqt",
+            "mugshot_url_template": "https://mug0.assets-yammer.com/mugshot/images/{width}x{height}/TS6XNs6nWKqjGc5k1vXXNQPV9chQrZqt",
+            "url": "https://www.yammer.com/api/v1/users/1522984400",
+            "web_url": "https://www.yammer.com/encamina.com/users/jgimenez",
+            "activated_at": "2014/08/07 06:52:06 +0000",
+            "stats": {
+                "following": 58,
+                "followers": 35,
+                "updates": 0
+            }
+        },
+        {
+            "type": "user",
+            "id": 1506042403,
+            "name": "mlerga",
+            "state": "active",
+            "full_name": "Marco Lerga",
+            "job_title": "Ingeniero de desarrollo",
+            "network_id": 50070,
+            "mugshot_url": "https://mug0.assets-yammer.com/mugshot/images/48x48/v5w8Rqf-8k-Bn2B5KwB79v45p8NnQC2J",
+            "mugshot_url_template": "https://mug0.assets-yammer.com/mugshot/images/{width}x{height}/v5w8Rqf-8k-Bn2B5KwB79v45p8NnQC2J",
+            "url": "https://www.yammer.com/api/v1/users/1506042403",
+            "web_url": "https://www.yammer.com/encamina.com/users/mlerga",
+            "activated_at": "2013/09/17 07:47:56 +0000",
+            "stats": {
+                "following": 4,
+                "followers": 36,
+                "updates": 0
+            }
+        },
+        {
+            "type": "message",
+            "url": "https://www.yammer.com/api/v1/messages/472842667",
+            "web_url": "https://www.yammer.com/encamina.com/messages/472842667",
+            "id": 472842667,
+            "sender_id": 508964,
+            "replied_to_id": 472698913,
+            "created_at": "2014/12/05 18:22:05 +0000",
+            "network_id": 50070,
+            "sender_type": "user",
+            "thread_id": 472698913,
+            "message_type": "update",
+            "system_message": false,
+            "content_excerpt": "Tiene guasa pero desde mi Windows Phone el botón de opciones que hay en la pagina NO FUNCIONA!!!!",
+            "language": "es",
+            "privacy": "public",
+            "direct_message": false,
+            "body": {
+                "plain": "Tiene guasa pero desde mi Windows Phone el botón de opciones que hay en la pagina NO FUNCIONA!!!!"
+            }
+        },
+        {
+            "type": "message",
+            "url": "https://www.yammer.com/api/v1/messages/472698913",
+            "web_url": "https://www.yammer.com/encamina.com/messages/472698913",
+            "id": 472698913,
+            "sender_id": 475184,
+            "replied_to_id": null,
+            "created_at": "2014/12/05 12:40:52 +0000",
+            "network_id": 50070,
+            "sender_type": "user",
+            "thread_id": 472698913,
+            "message_type": "update",
+            "system_message": false,
+            "content_excerpt": "Echarle un vistazo: hugo de juan Iwan van der Kleijn Belen Sanz http://appcup.eu/",
+            "language": "it",
+            "privacy": "public",
+            "direct_message": false,
+            "body": {
+                "plain": "Echarle un vistazo: hugo de juan Iwan van der Kleijn Belen Sanz http://appcup.eu/"
+            }
+        },
+        {
+            "type": "message",
+            "url": "https://www.yammer.com/api/v1/messages/472354740",
+            "web_url": "https://www.yammer.com/encamina.com/messages/472354740",
+            "id": 472354740,
+            "sender_id": 1513149899,
+            "replied_to_id": null,
+            "created_at": "2014/12/04 20:15:11 +0000",
+            "network_id": 50070,
+            "sender_type": "user",
+            "thread_id": 472354740,
+            "message_type": "update",
+            "system_message": false,
+            "content_excerpt": "Tarde de jueves en el sareb en busca de fantasmas con mi amigo Fabián y Carlos López vía lync!!!!\nExpedientes nunca se relaja!!!!",
+            "language": "es",
+            "privacy": "public",
+            "direct_message": false,
+            "body": {
+                "plain": "Tarde de jueves en el sareb en busca de fantasmas con mi amigo Fabián y Carlos López vía lync!!!!\nExpedientes nunca se relaja!!!!"
+            }
+        },
+        {
+            "type": "message",
+            "url": "https://www.yammer.com/api/v1/messages/472806174",
+            "web_url": "https://www.yammer.com/encamina.com/messages/472806174",
+            "id": 472806174,
+            "sender_id": 1513149899,
+            "replied_to_id": 472354740,
+            "created_at": "2014/12/05 16:42:04 +0000",
+            "network_id": 50070,
+            "sender_type": "user",
+            "thread_id": 472354740,
+            "message_type": "update",
+            "system_message": false,
+            "content_excerpt": "Fantasma donde estas????.\nDespués del simulacro, empieza el verdadero curro este finde semana.\nA ver si localizamos el Ghost-Bug que nos atormenta.\nEl martes contamos el final de la película en Expedientes 2.0 Arquitectura Sangrienta!!!!!",
+            "language": "es",
+            "privacy": "public",
+            "direct_message": false,
+            "body": {
+                "plain": "Fantasma donde estas????.\nDespués del simulacro, empieza el verdadero curro este finde semana.\nA ver si localizamos el Ghost-Bug que nos atormenta.\nEl martes contamos el final de la película en Expedientes 2.0 Arquitectura Sangrienta!!!!!"
+            }
+        },
+        {
+            "type": "message",
+            "url": "https://www.yammer.com/api/v1/messages/472646655",
+            "web_url": "https://www.yammer.com/encamina.com/messages/472646655",
+            "id": 472646655,
+            "sender_id": 518216,
+            "replied_to_id": null,
+            "created_at": "2014/12/05 10:27:47 +0000",
+            "network_id": 50070,
+            "sender_type": "user",
+            "thread_id": 472646655,
+            "message_type": "update",
+            "system_message": false,
+            "content_excerpt": "Alguien se ha acabado la tarta, ¿recogemos?",
+            "language": "es",
+            "privacy": "public",
+            "direct_message": false,
+            "body": {
+                "plain": "Alguien se ha acabado la tarta, ¿recogemos?"
+            }
+        },
+        {
+            "type": "message",
+            "url": "https://www.yammer.com/api/v1/messages/472730493",
+            "web_url": "https://www.yammer.com/encamina.com/messages/472730493",
+            "id": 472730493,
+            "sender_id": 1491684659,
+            "replied_to_id": null,
+            "created_at": "2014/12/05 14:01:01 +0000",
+            "network_id": 50070,
+            "group_id": 4897328,
+            "sender_type": "user",
+            "thread_id": 472730493,
+            "message_type": "update",
+            "system_message": false,
+            "content_excerpt": "Aqui Belen Sanz , Pako Giménez y Javier Menendez Pallo tenemos un hueco para hablar sobre Camikú y todo que esta involucrado.",
+            "language": "es",
+            "privacy": "private",
+            "direct_message": false,
+            "body": {
+                "plain": "Aqui Belen Sanz , Pako Giménez y Javier Menendez Pallo tenemos un hueco para hablar sobre Camikú y todo que esta involucrado."
+            }
+        },
+        {
+            "type": "message",
+            "url": "https://www.yammer.com/api/v1/messages/472701477",
+            "web_url": "https://www.yammer.com/encamina.com/messages/472701477",
+            "id": 472701477,
+            "sender_id": 1522984400,
+            "replied_to_id": null,
+            "created_at": "2014/12/05 12:48:02 +0000",
+            "network_id": 50070,
+            "group_id": 63612,
+            "sender_type": "user",
+            "thread_id": 472701477,
+            "message_type": "update",
+            "system_message": false,
+            "content_excerpt": "Hace falta otro cerdito. Que sea amarillo.",
+            "language": "it",
+            "privacy": "public",
+            "direct_message": false,
+            "body": {
+                "plain": "Hace falta otro cerdito. Que sea amarillo."
+            }
+        },
+        {
+            "url": "https://www.yammer.com/api/v1/messages/in_thread/473047525",
+            "web_url": "https://www.yammer.com/encamina.com/threads/473047525",
+            "type": "thread",
+            "id": 473047525,
+            "network_id": 50070,
+            "thread_starter_id": 473047525,
+            "group_id": 3935898,
+            "topics": [],
+            "privacy": "public",
+            "direct_message": false,
+            "has_attachments": false,
+            "stats": {
+                "updates": 1,
+                "shares": 0,
+                "first_reply_id": null,
+                "first_reply_at": null,
+                "latest_reply_id": 473047525,
+                "latest_reply_at": "2014/12/06 16:51:50 +0000"
+            },
+            "invited_user_ids": []
+        },
+        {
+            "url": "https://www.yammer.com/api/v1/messages/in_thread/472698913",
+            "web_url": "https://www.yammer.com/encamina.com/threads/472698913",
+            "type": "thread",
+            "id": 472698913,
+            "network_id": 50070,
+            "thread_starter_id": 472698913,
+            "group_id": null,
+            "topics": [],
+            "privacy": "public",
+            "direct_message": false,
+            "has_attachments": false,
+            "stats": {
+                "updates": 4,
+                "shares": 0,
+                "first_reply_id": 472842667,
+                "first_reply_at": "2014/12/05 18:22:05 +0000",
+                "latest_reply_id": 472843885,
+                "latest_reply_at": "2014/12/05 18:25:27 +0000"
+            },
+            "invited_user_ids": []
+        },
+        {
+            "url": "https://www.yammer.com/api/v1/messages/in_thread/472354740",
+            "web_url": "https://www.yammer.com/encamina.com/threads/472354740",
+            "type": "thread",
+            "id": 472354740,
+            "network_id": 50070,
+            "thread_starter_id": 472354740,
+            "group_id": null,
+            "topics": [],
+            "privacy": "public",
+            "direct_message": false,
+            "has_attachments": true,
+            "stats": {
+                "updates": 4,
+                "shares": 0,
+                "first_reply_id": 472806174,
+                "first_reply_at": "2014/12/05 16:42:04 +0000",
+                "latest_reply_id": 472826283,
+                "latest_reply_at": "2014/12/05 17:33:41 +0000"
+            },
+            "invited_user_ids": []
+        },
+        {
+            "url": "https://www.yammer.com/api/v1/messages/in_thread/472818297",
+            "web_url": "https://www.yammer.com/encamina.com/threads/472818297",
+            "type": "thread",
+            "id": 472818297,
+            "network_id": 50070,
+            "thread_starter_id": 472818297,
+            "group_id": 34299,
+            "topics": [],
+            "privacy": "public",
+            "direct_message": false,
+            "has_attachments": false,
+            "stats": {
+                "updates": 1,
+                "shares": 0,
+                "first_reply_id": null,
+                "first_reply_at": null,
+                "latest_reply_id": 472818297,
+                "latest_reply_at": "2014/12/05 17:12:26 +0000"
+            },
+            "invited_user_ids": []
+        },
+        {
+            "url": "https://www.yammer.com/api/v1/messages/in_thread/472817820",
+            "web_url": "https://www.yammer.com/encamina.com/threads/472817820",
+            "type": "thread",
+            "id": 472817820,
+            "network_id": 50070,
+            "thread_starter_id": 472817820,
+            "group_id": 3935898,
+            "topics": [],
+            "privacy": "public",
+            "direct_message": false,
+            "has_attachments": false,
+            "stats": {
+                "updates": 1,
+                "shares": 0,
+                "first_reply_id": null,
+                "first_reply_at": null,
+                "latest_reply_id": 472817820,
+                "latest_reply_at": "2014/12/05 17:11:09 +0000"
+            },
+            "invited_user_ids": []
+        },
+        {
+            "url": "https://www.yammer.com/api/v1/messages/in_thread/472646655",
+            "web_url": "https://www.yammer.com/encamina.com/threads/472646655",
+            "type": "thread",
+            "id": 472646655,
+            "network_id": 50070,
+            "thread_starter_id": 472646655,
+            "group_id": null,
+            "topics": [],
+            "privacy": "public",
+            "direct_message": false,
+            "has_attachments": true,
+            "stats": {
+                "updates": 3,
+                "shares": 0,
+                "first_reply_id": 472759940,
+                "first_reply_at": "2014/12/05 15:03:08 +0000",
+                "latest_reply_id": 472789248,
+                "latest_reply_at": "2014/12/05 16:04:07 +0000"
+            },
+            "invited_user_ids": []
+        },
+        {
+            "url": "https://www.yammer.com/api/v1/messages/in_thread/472772591",
+            "web_url": "https://www.yammer.com/encamina.com/threads/472772591",
+            "type": "thread",
+            "id": 472772591,
+            "network_id": 50070,
+            "thread_starter_id": 472772591,
+            "group_id": 4649065,
+            "topics": [],
+            "privacy": "public",
+            "direct_message": false,
+            "has_attachments": false,
+            "stats": {
+                "updates": 1,
+                "shares": 0,
+                "first_reply_id": null,
+                "first_reply_at": null,
+                "latest_reply_id": 472772591,
+                "latest_reply_at": "2014/12/05 15:30:22 +0000"
+            },
+            "invited_user_ids": []
+        },
+        {
+            "url": "https://www.yammer.com/api/v1/messages/in_thread/472749099",
+            "web_url": "https://www.yammer.com/encamina.com/threads/472749099",
+            "type": "thread",
+            "id": 472749099,
+            "network_id": 50070,
+            "thread_starter_id": 472749099,
+            "group_id": 4918819,
+            "topics": [],
+            "privacy": "private",
+            "direct_message": false,
+            "has_attachments": false,
+            "stats": {
+                "updates": 1,
+                "shares": 0,
+                "first_reply_id": null,
+                "first_reply_at": null,
+                "latest_reply_id": 472749099,
+                "latest_reply_at": "2014/12/05 14:40:24 +0000"
+            },
+            "invited_user_ids": []
+        },
+        {
+            "url": "https://www.yammer.com/api/v1/messages/in_thread/472735252",
+            "web_url": "https://www.yammer.com/encamina.com/threads/472735252",
+            "type": "thread",
+            "id": 472735252,
+            "network_id": 50070,
+            "thread_starter_id": 472735252,
+            "group_id": 3935898,
+            "topics": [],
+            "privacy": "public",
+            "direct_message": false,
+            "has_attachments": false,
+            "stats": {
+                "updates": 1,
+                "shares": 0,
+                "first_reply_id": null,
+                "first_reply_at": null,
+                "latest_reply_id": 472735252,
+                "latest_reply_at": "2014/12/05 14:10:44 +0000"
+            },
+            "invited_user_ids": []
+        },
+        {
+            "url": "https://www.yammer.com/api/v1/messages/in_thread/472731410",
+            "web_url": "https://www.yammer.com/encamina.com/threads/472731410",
+            "type": "thread",
+            "id": 472731410,
+            "network_id": 50070,
+            "thread_starter_id": 472731410,
+            "group_id": 4897328,
+            "topics": [],
+            "privacy": "private",
+            "direct_message": false,
+            "has_attachments": false,
+            "stats": {
+                "updates": 1,
+                "shares": 0,
+                "first_reply_id": null,
+                "first_reply_at": null,
+                "latest_reply_id": 472731410,
+                "latest_reply_at": "2014/12/05 14:02:45 +0000"
+            },
+            "invited_user_ids": []
+        },
+        {
+            "url": "https://www.yammer.com/api/v1/messages/in_thread/472730493",
+            "web_url": "https://www.yammer.com/encamina.com/threads/472730493",
+            "type": "thread",
+            "id": 472730493,
+            "network_id": 50070,
+            "thread_starter_id": 472730493,
+            "group_id": 4897328,
+            "topics": [],
+            "privacy": "private",
+            "direct_message": false,
+            "has_attachments": false,
+            "stats": {
+                "updates": 2,
+                "shares": 0,
+                "first_reply_id": 472730497,
+                "first_reply_at": "2014/12/05 14:01:01 +0000",
+                "latest_reply_id": 472730497,
+                "latest_reply_at": "2014/12/05 14:01:01 +0000"
+            },
+            "invited_user_ids": [
+                1517998880
+            ]
+        },
+        {
+            "url": "https://www.yammer.com/api/v1/messages/in_thread/472701477",
+            "web_url": "https://www.yammer.com/encamina.com/threads/472701477",
+            "type": "thread",
+            "id": 472701477,
+            "network_id": 50070,
+            "thread_starter_id": 472701477,
+            "group_id": 63612,
+            "topics": [],
+            "privacy": "public",
+            "direct_message": false,
+            "has_attachments": true,
+            "stats": {
+                "updates": 3,
+                "shares": 0,
+                "first_reply_id": 472705005,
+                "first_reply_at": "2014/12/05 12:57:20 +0000",
+                "latest_reply_id": 472714327,
+                "latest_reply_at": "2014/12/05 13:22:59 +0000"
+            },
+            "invited_user_ids": []
+        },
+        {
+            "type": "group",
+            "id": 3935898,
+            "full_name": "Dev",
+            "name": "dev",
+            "description": "Temas de desarrollo en general (web, .Net, movilidad, practicas etc)",
+            "privacy": "public",
+            "url": "https://www.yammer.com/api/v1/groups/3935898",
+            "web_url": "https://www.yammer.com/encamina.com/#/threads/inGroup?type=in_group&feedId=3935898",
+            "mugshot_url": "https://mug0.assets-yammer.com/mugshot/images/48x48/Fsl41K2MQxCpWRCc8CfQ8n89KHz8vP2k",
+            "mugshot_url_template": "https://mug0.assets-yammer.com/mugshot/images/{width}x{height}/Fsl41K2MQxCpWRCc8CfQ8n89KHz8vP2k",
+            "mugshot_id": "Fsl41K2MQxCpWRCc8CfQ8n89KHz8vP2k",
+            "office365_url": null,
+            "created_at": "2014/02/27 09:19:28 +0000"
+        },
+        {
+            "type": "group",
+            "id": 34299,
+            "full_name": "LA A!",
+            "name": "laa",
+            "description": "",
+            "privacy": "public",
+            "url": "https://www.yammer.com/api/v1/groups/34299",
+            "web_url": "https://www.yammer.com/encamina.com/#/threads/inGroup?type=in_group&feedId=34299",
+            "mugshot_url": "https://mug0.assets-yammer.com/mugshot/images/48x48/tgCC6r9cW00CxXfHX0xgBs2Mw6Ng8PsK",
+            "mugshot_url_template": "https://mug0.assets-yammer.com/mugshot/images/{width}x{height}/tgCC6r9cW00CxXfHX0xgBs2Mw6Ng8PsK",
+            "mugshot_id": "tgCC6r9cW00CxXfHX0xgBs2Mw6Ng8PsK",
+            "office365_url": "https://ad28ba82a72a4c40b679.sharepoint.com/sites/977527",
+            "created_at": "2009/08/17 07:28:40 +0000"
+        },
+        {
+            "type": "group",
+            "id": 4649065,
+            "full_name": "UX & UI Design",
+            "network_id": 50070,
+            "name": "uxuidesign",
+            "description": "",
+            "privacy": "public",
+            "url": "https://www.yammer.com/api/v1/groups/4649065",
+            "web_url": "https://www.yammer.com/encamina.com/#/threads/inGroup?type=in_group&feedId=4649065",
+            "mugshot_url": "https://mug0.assets-yammer.com/mugshot/images/48x48/HcP3dbV-4mRBg8mPgV66lWhqh5RPxnsm",
+            "mugshot_url_template": "https://mug0.assets-yammer.com/mugshot/images/{width}x{height}/HcP3dbV-4mRBg8mPgV66lWhqh5RPxnsm",
+            "mugshot_id": "HcP3dbV-4mRBg8mPgV66lWhqh5RPxnsm",
+            "show_in_directory": "true",
+            "office365_url": "https://ad28ba82a72a4c40b679.sharepoint.com/sites/2225040",
+            "created_at": "2014/08/18 13:19:06 +0000"
+        },
+        {
+            "type": "group",
+            "id": 4918819,
+            "full_name": "Sareb.Iron",
+            "network_id": 50070,
+            "name": "sarebiron",
+            "description": null,
+            "privacy": "private",
+            "url": "https://www.yammer.com/api/v1/groups/4918819",
+            "web_url": "https://www.yammer.com/encamina.com/#/threads/inGroup?type=in_group&feedId=4918819",
+            "mugshot_url": "https://mug0.assets-yammer.com/mugshot/images/48x48/z5p2lsPC4N9pKgdmZnq87ch-kqLmBP66",
+            "mugshot_url_template": "https://mug0.assets-yammer.com/mugshot/images/{width}x{height}/z5p2lsPC4N9pKgdmZnq87ch-kqLmBP66",
+            "mugshot_id": "z5p2lsPC4N9pKgdmZnq87ch-kqLmBP66",
+            "show_in_directory": "false",
+            "office365_url": null,
+            "created_at": "2014/11/07 12:36:27 +0000"
+        },
+        {
+            "type": "group",
+            "id": 4897328,
+            "full_name": "Enesfera.Alpha",
+            "network_id": 50070,
+            "name": "enesferaalpha",
+            "description": "\"Enesfera.Alpha\" es el nombre interno (es decir: NO formal) del proyecto para la mejora de los procesos de negocio a través “Gamification”.",
+            "privacy": "private",
+            "url": "https://www.yammer.com/api/v1/groups/4897328",
+            "web_url": "https://www.yammer.com/encamina.com/#/threads/inGroup?type=in_group&feedId=4897328",
+            "mugshot_url": "https://mug0.assets-yammer.com/mugshot/images/48x48/58Hm5Hw2jwvX01Kp5-CWlfcvrq9xgTBf",
+            "mugshot_url_template": "https://mug0.assets-yammer.com/mugshot/images/{width}x{height}/58Hm5Hw2jwvX01Kp5-CWlfcvrq9xgTBf",
+            "mugshot_id": "58Hm5Hw2jwvX01Kp5-CWlfcvrq9xgTBf",
+            "show_in_directory": "false",
+            "office365_url": "https://ad28ba82a72a4c40b679.sharepoint.com/sites/2438500",
+            "created_at": "2014/11/03 13:02:14 +0000"
+        },
+        {
+            "type": "group",
+            "id": 63612,
+            "full_name": "ENTRESISTEMAS",
+            "name": "entresistemas",
+            "description": "",
+            "privacy": "public",
+            "url": "https://www.yammer.com/api/v1/groups/63612",
+            "web_url": "https://www.yammer.com/encamina.com/#/threads/inGroup?type=in_group&feedId=63612",
+            "mugshot_url": "https://mug0.assets-yammer.com/mugshot/images/48x48/XP1G8xfhgR7CcR5C6P2VLmZ-4WKJKJcX",
+            "mugshot_url_template": "https://mug0.assets-yammer.com/mugshot/images/{width}x{height}/XP1G8xfhgR7CcR5C6P2VLmZ-4WKJKJcX",
+            "mugshot_id": "XP1G8xfhgR7CcR5C6P2VLmZ-4WKJKJcX",
+            "office365_url": "https://ad28ba82a72a4c40b679.sharepoint.com/sites/977653",
+            "created_at": "2010/03/25 11:13:24 +0000"
+        }
+    ],
+    "external_references": [],
+    "meta": {
+        "older_available": true,
+        "requested_poll_interval": 60,
+        "realtime": {
+            "uri": "https://4-672.rt.yammer.com/cometd/",
+            "authentication_token": "Fle3z2k2bkxMpqz0mX/jf78x0rhKAUY6VmD344Q5/zN4nKtWKi1OLVKyMjSxNDSzMDEztdRRykstKc8vylayMjUwMDfQUUqtKMgsqgSpMTIwNTM3NzOtBQC25g9R",
+            "channel_id": "MjQ6NTAwNzA6MTQ5MTY4NDY1OQ"
+        },
+        "last_seen_message_id": 473047525,
+        "unseen_message_count_following": 0,
+        "unseen_thread_count_following": 0,
+        "unseen_message_count_received": 0,
+        "unseen_thread_count_received": 0,
+        "unseen_message_count_algo": 0,
+        "unseen_thread_count_algo": 0,
+        "unseen_message_count_my_all": 0,
+        "unseen_thread_count_my_all": 0,
+        "current_user_id": 1491684659,
+        "liked_message_ids": [
+            472842667,
+            472806174,
+            472818297,
+            472698913,
+            472354740
+        ],
+        "followed_user_ids": [
+            508964,
+            475184,
+            1513149899,
+            1492003504,
+            518216,
+            859645,
+            543940,
+            508967,
+            1511638434,
+            1522984400,
+            1506042403
+        ],
+        "followed_references": [
+            {
+                "type": "open_graph_object",
+                "id": 351561197000383
+            },
+            {
+                "type": "open_graph_object",
+                "id": 351561196937232
+            },
+            {
+                "type": "open_graph_object",
+                "id": 351561196935738
+            },
+            {
+                "type": "open_graph_object",
+                "id": 351561196928820
+            },
+            {
+                "type": "open_graph_object",
+                "id": 351561196922948
+            }
+        ],
+        "ymodules": [],
+        "newest_message_details": null,
+        "feed_name": "My Feed",
+        "feed_desc": "The messages you're following",
+        "direct_from_body": false
+    }
+}
