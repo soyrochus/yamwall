@@ -1,34 +1,12 @@
-<div class="book-cmp">
-<table class="book-table">
-    <tr><th>Id</th><th>Title</th><th>Series</th><th>Author</th></tr>
-    {{#books}}
-    <tr><td><a href="#/books/{{id}}">{{id}}</a></td><td>{{name}}</td><td>{{series_t}}</td><td>{{author}}</td></tr>
-    {{/books}}
-</table>
+<div>
 
-<div class="book-fields" style="display:none;">
-  <label for="bookname">Name:</label><input name="bookname" value="{{form.name}}" />
-  <label for="bookauthor">Author:</label><input name="bookauthor" value="{{form.author}}"  />
-  <br />
-  <a on-click="cancel" href="#/books">&#9166; Cancel & return to books</a> 
-  <br />
-  <a on-click="save" href="#/books">&#9166; Save & return to books</a> 
-</div>
+    {{{body.rich}}}
 
-<a href="#/">Home....</a>
 </div>
 
 <style>
- .book-fields input: {
-     width: 300px;
-     clear: right; 
- }
  
- .book-table {
-
-    border: 1px solid #CCC;
-  } 
- 
+  
 </style>
 
 <script>
@@ -37,54 +15,12 @@ var $ = require('jquery');
 
 component.exports = {
    onconstruct: function(options){
-     debugger;
-     console.log(options);
-     options.data.form = {};
+    
    },
    onrender: function(){
 
-     this._cmp = this.find('div.book-cmp');
-     this._table = this.find('table.book-table');
-     this._form = this.find('div.book-fields');
-
      var that = this;
-     this.on('cancel', function(){
-       that.showTable();
-     }); 
-   },
-   show: function(data){
-     $(this._cmp).show();
-     if (data.id){
-       this.showForm(data.id);
-     } else {
-       this.showTable(data);
-     }
-   },  
-   remove: function(){
-     $(this._cmp).hide();
-   },
-   showForm: function(bookid){
-     debugger;
-      
-     var books = this.data.books.filter(function(item){
-       return item.id == bookid;
-     });
 
-     if (books.length == 0){
-       console.log("No he econtrado libreo !");
-       return;
-     }
-     
-     $(this._table).hide();
-     $(this._form).show();
-     this.set('form', books[0]); 
-   },
-   showTable: function(data){
-     if (data){
-       this.set(data);
-     }
-     $(this._table).show();
-     $(this._form).hide();
    }
 };
 

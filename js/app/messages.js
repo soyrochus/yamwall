@@ -5,41 +5,38 @@ define(['Ractive', 'Backbone'], function(Ractive, Backbone){
 
   var exports = {};
 
-  exports.show = function(app){
-
-    enmarcha.getService(app, 'books', {}, {}, function(data){
-      
-      app.views.show('books', {books: data});      
-    });
-  };
-  
-  exports.showBook = function(app, bookid){
-
-    app.views.show('books', {id:bookid});
-  };
-
   //presencia de este methodo cuasa delegacion del "routing" 
   exports.handleRoute = function(app, args){
 
-    if(args[0]){
-      this.showBook(app, args[0]);
-    } else {
-      this.show(app);
-    }
+    app.views.show('messages', {});      
+    exports.getMessages(app);
+
+  };
+
+  exports.getMessages = function(app){
+    debugger;
+    var auth_header = 'Bearer ' + localStorage.token;
+    enmarcha.getService(app, 'messages', {}, {'Authentication': auth_header}, function(data){
+      debugger;
+      if (app.messages.length == 0){
+        app.messages = data.messages;
+        app.currentMessage = (app.messages.length > 0)? 0 : -1;
+      }else {
+        app.messages = app.messages.concat(data.messages);
+      }
+      var view = app.views.get('messages').get();
+      if (view){
+        view.set(app.messages[app.currentMessage]);        
+      }
+    }, function(error){
+         alert(error.message);
+       }); 
   };
 
   exports.init = function(app){
 
-    var view = app.views.get('messages');
-    view.on("save", function(){
-      alert("Aqui enviamos los datos");
-
-      var book = this.get('form'); 
-      enmarcha.postService(app, 'savebook', book, {},function(res){
-        
-        enmarcha.gotoPage('books');
-      });
-    });
+    app.messages = [];
+    app.currentMessage = -1;
   };
 
   return exports;
