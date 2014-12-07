@@ -15,7 +15,8 @@ requirejs.config({
     underscore: 'underscore/underscore',
     foundation: 'foundation/js/foundation',
     d3: 'd3/d3',
-    epoch: 'epoch/epoch.0.5.2.min'
+    epoch: 'epoch/epoch.0.5.2.min',
+    'ractive-fade': '../ractive-transitions-fade'
   },
   map: {
     '*': {
@@ -45,6 +46,9 @@ requirejs.config({
     },
     'epoch': {
       deps: ['jquery', 'd3']
+    },
+    'ractive-fade': {
+      deps: ['Ractive']
     },
     'enmarcha':{
       deps: ['jquery', 'd3', 'epoch']

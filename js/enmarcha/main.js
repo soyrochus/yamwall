@@ -414,6 +414,17 @@
         return false;
       }
     },
+    teardown: function(callback){
+
+      if (this.current && this.current._instance){
+        if (this.current._instance.teardown){
+          this.current._instance.teardown(callback);
+        }
+        this.current._instance = null; //quitar referencia
+        this.current = null;
+      }
+      return true;
+    },
     remove: function(){
       if (this.current && this.current._instance){
         if (this.current._instance.remove){

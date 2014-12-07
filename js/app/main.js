@@ -34,9 +34,12 @@ function($, Ractive, Backbone, foundation, messages, MessagesView, AuthView, Pro
       main: '#render-main'
     },
     services: {
-      messages: 'getmessages',  // 'messages/my_feed.json',
-      oauth: 'http://localhost:9000/oauth',     //'https://www.yammer.com/dialog/oauth',
-      accesstoken: 'http://localhost:9000/accesstoken'      //'https://www.yammer.com/oauth2/access_token.json'
+      messages: 'getmessages',
+      //messages: 'messages/my_feed.json'
+      oauth: 'http://localhost:9000/oauth',
+      //oauth: 'https://www.yammer.com/dialog/oauth',
+      accesstoken: 'http://localhost:9000/accesstoken'
+      //accesstoken: 'https://www.yammer.com/oauth2/access_token.json'
     },
     service_root: service_root,
     defaultUrl: '/',

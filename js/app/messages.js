@@ -1,6 +1,6 @@
 /* global define , enmarcha, debugger */
 
-define(['Ractive', 'Backbone'], function(Ractive, Backbone){
+define(['Ractive', 'Backbone', 'ractive-fade'], function(Ractive, Backbone){
   "use strict"
 
   var exports = {};
@@ -12,7 +12,7 @@ define(['Ractive', 'Backbone'], function(Ractive, Backbone){
     exports.getMessages(app, function(){
       setInterval(function(){
         exports.changeMessage(app);
-      }, 5000);
+      }, 7000);
     });
   };
 
@@ -30,16 +30,17 @@ define(['Ractive', 'Backbone'], function(Ractive, Backbone){
     if (view){
       var message = app.messages[app.currentMessage];
       var attachment = (message.attachments.length > 0) ? message.attachments[0] : false;
-      view.set({user: app.references[message.sender_id], message:message, attachment: attachment});        
+      app.views.teardown(function(){
+        app.views.show('messages',{user: app.references[message.sender_id], message:message, attachment: attachment});
+      });
+      
     }    
   };
 
   exports.getMessages = function(app, callback){
-    debugger;
+
     var auth_header = 'Bearer ' + localStorage.token;
     enmarcha.getService(app, 'messages', {}, {'Authentication': auth_header}, function(data){
-      debugger;
-      
       app.messages = app.messages.concat(data.messages);
       app.references = data.references.reduce(function(obj, e){
          obj[e.id] = e;                
