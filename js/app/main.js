@@ -27,6 +27,9 @@ function($, Ractive, Backbone, foundation, messages, MessagesView, AuthView, Pro
     client_id: 'mOPBWuDVDTMyWBzkoYHg',
     client_secret: 'kimoqWAj9gKExr0C0bMKoMxwS59NH9uZjXtj8hwk6L4',
     redirect_uri: 'http://localhost:9000/authenticated',
+    messages: [],
+    currentMessage: -1,
+    references: {},
     render: {
       main: '#render-main'
     },
