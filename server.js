@@ -13,10 +13,28 @@ http.createServer(app).listen(9000, function(){
     console.log("Express server listening on port 9000");
 });
 
-app.get('/services/auth', mdata.toread('yammer/auth.json', function(data, request, response){
+app.get('/authenticated', function(request, response){
 
+   var yammerCode = request.query['code'];
+ 
+   response.send('<script>localStorage.yammerCode = "'+ yammerCode + '";\n' +
+                'window.location.href ="http://localhost:9000/#process";</script>');
+});
+
+
+///////// MOCK /////////////
+app.get('/oauth', function(request, response){
+   console.log('mock auth page');
+   response.send('<script>function goback(){ window.location.href="http://localhost:9000/authenticated?code=GrOHWSvyU0nngX4Wyx7wwg"; }</script>' +
+                 '<h1>Mock pagina de YAMMER. Haz click en el boton para simular la "Authenticacion de Yammer"</h1>' +
+                 '<button style="font-size: 24px" onclick="goback();">Acceptar acceso de app "Kiosco Yammer de ENCAMINA"</button>');
+});
+
+app.get('/accesstoken', mdata.toread('yammer/auth.json', function(data, request, response){
+   
    response.send(data);
 }));
+
 
 app.get('/services/getmessages', mdata.toread('yammer/getmessages.json', function(data, request, response){
 

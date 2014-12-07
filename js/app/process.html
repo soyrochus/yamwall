@@ -1,0 +1,44 @@
+<div class="process">
+    <h1>Un momento por favor ...</h1>
+</div>
+
+<style>
+ 
+ .process {
+   width: 300px;
+   clear: right;
+   border: 1px solid #CCC;
+   font: 100px;
+  }
+ 
+</style>
+
+<script>
+
+ var $ = require('jquery');
+ 
+ component.exports = {
+     onconstruct: function(options){
+     },
+     onrender: function(){
+         debugger;
+         enmarcha.getJSON(enciosco.services.accesstoken,
+                          {
+                              client_id: enciosco.client_id,
+                              client_secret: enciosco.client_secret,
+                              code: localStorage.yammerCode
+                          }, {}, function(data){
+                              debugger;
+                              localStorage.token = data.access_token.token;         
+                              delete localStorage.yammerCode;
+                              window.location.href = "http://localhost:9000";
+                          }, function(err){
+                              debugger;
+                              alert(err.message);
+                          });
+     },
+     handleRoute: function(app, args){
+     }
+ };
+ 
+</script>

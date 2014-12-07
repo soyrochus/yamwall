@@ -1,11 +1,6 @@
-<div class="info">
-  <ul>
-    <li><a href="#/info">Main</a></li>
-    <li><a href="#/info/one">One</a></li>
-    <li><a href="#/info/two">Two</a></li>
-  </ul>
-  <div class="biiiig">{{text}}</div>
-  <a href="#/books">Books....</a>
+<div class="auth">
+    <h1>Haz click en el buton para autenticar la applicacion en Yammer</h1>
+    <a on-click="goto-auth" href="" onclick="return false;"><img src="images/login-yammer.png" /></a>
 </div>
 
 
@@ -24,25 +19,20 @@
 
 <script>
 
-var $ = require('jquery');
+ var $ = require('jquery');
+ 
+ component.exports = {
+     onconstruct: function(options){
 
-component.exports = {
-  onconstruct: function(options){
-    debugger;
-    options.data = options.data || {text:''};
-    options.data.text = "Hola mundo";
-  },
-  handleRoute: function(app, args){
-    var text = args[0] || "Hola Mundo";
-    this.set('text', text);
-  },
-  show: function(){
-    $(this.find('.info')).show();
-  },
-  remove: function(){
-    $(this.find('.info')).remove();
-    return {cached: true};
-  }
-};
+     },
+     onrender: function(){
+         this.on('goto-auth', function(){
+             window.location.href=enciosco.services.oauth + '?client_id=' + enciosco.client_id + '&redirect_uri=' + enciosco.redirect_uri;
+         });
+     },
+     handleRoute: function(app, args){
 
+     }
+ };
+ 
 </script>
