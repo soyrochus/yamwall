@@ -1,7 +1,7 @@
-/* globals: bookapp, define, _ENMARCHA_MOCK_, service_root, _SERVICES_ROOT_PRO_,  enmarcha */
+/* globals: bookapp, define, _ENMARCHA_MOCK_, service_root, _SERVICES_ROOT_PRO_,  enmarcha , localstorage */
 
-define(['jquery', 'Ractive', 'Backbone', 'foundation', 'app/books','rvc!app/books', 'rvc!app/info'],
-function($, Ractive, Backbone, foundation, books, BooksView, InfoView){
+define(['jquery', 'Ractive', 'Backbone', 'foundation', 'app/messages','rvc!app/messages', 'rvc!app/auth'],
+function($, Ractive, Backbone, foundation, messages, MessagesView, AuthView){
   "use strict";
 
   /*********** BEGIN config parameters ***************/
@@ -9,7 +9,7 @@ function($, Ractive, Backbone, foundation, books, BooksView, InfoView){
   //Define si app utiliza entorno mock o no
   var _ENMARCHA_MOCK_ = true;
   //INT/PRO url services
-  var _SERVICES_ROOT_PRO_ = 'http://webapi:8092/api/';
+  var _SERVICES_ROOT_PRO_ = 'https://www.yammer.com/api/v1';
 
   /************ END config parameters *****************/
 
@@ -23,39 +23,42 @@ function($, Ractive, Backbone, foundation, books, BooksView, InfoView){
   }
 
   var app = enmarcha.config({
-    name: 'bookapp',
+    name: 'enciosco',
     render: {
       main: '#render-main'
     },
     services: {
-      books: 'books',
-      savebook: 'savebook'
+      messages: 'getmessages',  // 'messages/my_feed.json',
+      initauth: 'initauth',     //'https://www.yammer.com/dialog/oauth',
+      gettoken: 'gettoken'      //'https://www.yammer.com/oauth2/access_token.json'
     },
     service_root: service_root,
     defaultUrl: '/',
     routes: {
-        "":  "home",
-        "info": "v:info",
-        "info/:id": "v:info",
-        "books": "books",
-        "books/:id": "books"
+        "": "home",
+        "auth": "v:auth",
+        "messages": "messages"
     },
     views: {
-      'info':{
+      'auth':{
         target: 'main',
-        template: InfoView
+        template: AuthView
       },
-      'books':{
+      'messages':{
         target: 'main',
-        template: BooksView,
-        data: {books: []}
+        template: MessagesView,
+        data: {messages: []}
       }
     },
     handlers: {
       home: function() {
-        enmarcha.gotoPage('info');
+        if (localStorage.token){
+          enmarcha.gotoPage('messages');
+        }else{
+          enmarcha.gotoPage('auth');
+        }
       },
-      books: books
+      messages: messages
     }
   });
   

@@ -1,0 +1,48 @@
+<div class="info">
+  <ul>
+    <li><a href="#/info">Main</a></li>
+    <li><a href="#/info/one">One</a></li>
+    <li><a href="#/info/two">Two</a></li>
+  </ul>
+  <div class="biiiig">{{text}}</div>
+  <a href="#/books">Books....</a>
+</div>
+
+
+<style>
+ 
+ .info {
+   width: 300px;
+   clear: right;
+   border: 1px solid #CCC;
+  } 
+  .biiiig {
+    font: 100px
+  }
+ 
+</style>
+
+<script>
+
+var $ = require('jquery');
+
+component.exports = {
+  onconstruct: function(options){
+    debugger;
+    options.data = options.data || {text:''};
+    options.data.text = "Hola mundo";
+  },
+  handleRoute: function(app, args){
+    var text = args[0] || "Hola Mundo";
+    this.set('text', text);
+  },
+  show: function(){
+    $(this.find('.info')).show();
+  },
+  remove: function(){
+    $(this.find('.info')).remove();
+    return {cached: true};
+  }
+};
+
+</script>
