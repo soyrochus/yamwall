@@ -8,10 +8,22 @@ https://www.yammer.com/dialog/oauth?client_id=mOPBWuDVDTMyWBzkoYHg&redirect_uri=
 
 http://localhost:9000/authenticated?code=GrOHWSvyU0nngX4Wyx7wwg
 
+
 code=GrOHWSvyU0nngX4Wyx7wwg
+
+http://[:redirect_uri]?error=[:error]&error_description=[:error_description]
 
 
 https://www.yammer.com/oauth2/access_token.json?client_id=mOPBWuDVDTMyWBzkoYHg&client_secret=kimoqWAj9gKExr0C0bMKoMxwS59NH9uZjXtj8hwk6L4&code=GrOHWSvyU0nngX4Wyx7wwg
+
+
+HTTP 400 - error
+{
+  "error": {
+    "type": "OAuthException",
+    "message": "Error validating verification code."
+  }
+}
 
 
 token: "w5OuL5LKbm2HpV13hCj4GA"
@@ -19,3 +31,19 @@ token: "w5OuL5LKbm2HpV13hCj4GA"
 https://c64.assets-yammer.com/assets/platform_js_sdk.js
 
 https://assets.yammer.com/assets/platform_js_sdk.js
+
+
+GET /api/v1/messages/following.json HTTP/1.1 
+Host: www.yammer.com 
+Authorization: Bearer abcDefGhi
+
+
+If the access token expires or the user de-authorizes your app, the API request will return an HTTP 401 with the following error in the body of the response.
+
+{
+  "response": {
+    "message": "Token not found.",
+    "code": 16,
+    "stat": "fail"
+  }
+}

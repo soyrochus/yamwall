@@ -9,18 +9,22 @@ var express = require("express"),
 
 app.use('/',express.static(path.join(__dirname, './')));
 
-http.createServer(app).listen(8090, function(){
-    console.log("Express server listening on port 8090");
+http.createServer(app).listen(9000, function(){
+    console.log("Express server listening on port 9000");
 });
 
+app.get('/services/auth', mdata.toread('yammer/auth.json', function(data, request, response){
 
-app.get('/services/books', mdata.toread('json/books.json', function(data, request, response){
+   response.send(data);
+}));
+
+app.get('/services/getmessages', mdata.toread('yammer/getmessages.json', function(data, request, response){
 
    response.send(data);
 }));
 
 
-app.post('/services/savebook', mdata.towrite('json/books.json',  function(data, newdata, save, req, res){
+app.post('/services/get', mdata.towrite('json/books.json',  function(data, newdata, save, req, res){
   //console.log(arguments);
   //console.log(newdata);
   //var record = mdata.merge(newdata, data);
