@@ -4,8 +4,14 @@
     <div>{{#attachment}}{{{attachment.inline_html}}}{{/attachment}}</div>
 </div>
 
-<a href="#" onclick="return false;" on-click="full-screen">Pantalla completa</a>
-<a href="#logout">Logout</a>
+<div class="panel-normal">
+    <a href="#" onclick="return false;" on-click="full-screen">Pantalla completa</a>
+    <a href="#logout">Logout</a>
+</div>
+<div class="panel-full-screen" style="display: none;">
+    <a href="#" onclick="return false;" on-click="normal-screen">Pantalla normal</a>
+</div>
+
 <style>
  
   
@@ -22,6 +28,9 @@
      onrender: function(){
          
          var that = this;
+         this.$el = $(this.el);
+         this.fullScreenMenu(enciosco.fullScreen);
+                  
          this.on('full-screen',function(){
              var docElm = document.documentElement;
              if (docElm.requestFullscreen) {
@@ -36,8 +45,37 @@
              else if (docElm.msRequestFullscreen) {
                  docElm.msRequestFullscreen();
              }
+             enciosco.fullScreen = true;
+             this.fullScreenMenu(enciosco.fullScreen);
          });
-         
+
+         this.on('normal-screen', function(){
+
+             if (document.exitFullscreen) {
+                 document.exitFullscreen();
+             }
+             else if (document.mozCancelFullScreen) {
+                 document.mozCancelFullScreen();
+             }
+             else if (document.webkitCancelFullScreen) {
+                 document.webkitCancelFullScreen();
+             }
+             else if (document.msExitFullscreen) {
+                 document.msExitFullscreen();
+             }
+
+             enciosco.fullScreen = false;
+             this.fullScreenMenu(enciosco.fullScreen);
+         });   
+     },
+     fullScreenMenu: function(isFullscreen){
+         if(isFullscreen){
+             this.$el.find('.panel-full-screen').show();
+             this.$el.find('.panel-normal').hide();
+         } else {
+             this.$el.find('.panel-full-screen').hide();
+             this.$el.find('.panel-normal').show();
+         }
      }
  };
  
