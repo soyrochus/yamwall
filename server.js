@@ -15,7 +15,7 @@ http.createServer(app).listen(9000, function(){
 
 app.get('/authenticated', function(request, response){
 
-   response.send('<script>localStorage.token = location.hash.split("=")[1];\n' +
+   response.send('<script>localStorage.setItem("token", location.hash.split("=")[1]);\n' +
                 'window.location.href ="http://enciosco.encamina.com:9000/";</script>');
 });
 

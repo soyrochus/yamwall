@@ -61,15 +61,15 @@ function($, Ractive, Backbone, foundation, messages, MessagesView, AuthView){
     },
     handlers: {
       home: function() {
-        
-        if (localStorage.token){
+
+        if (localStorage.getItem('token')){
           enmarcha.gotoPage('messages');
         }else{
           enmarcha.gotoPage('auth');
         }
       },
       logout: function(){
-        delete localStorage.token;
+        localStorage.clear();
         enmarcha.gotoPage('');
       },
       messages: messages
