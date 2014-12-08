@@ -1,15 +1,15 @@
 /* globals: bookapp, define, _ENMARCHA_MOCK_, service_root, _SERVICES_ROOT_PRO_,  enmarcha , localstorage */
 
-define(['jquery', 'Ractive', 'Backbone', 'foundation', 'app/messages','rvc!app/messages', 'rvc!app/auth',  'rvc!app/process'],
-function($, Ractive, Backbone, foundation, messages, MessagesView, AuthView, ProcessView){
+define(['jquery', 'Ractive', 'Backbone', 'foundation', 'app/messages','rvc!app/messages', 'rvc!app/auth'],
+function($, Ractive, Backbone, foundation, messages, MessagesView, AuthView){
   "use strict";
 
   /*********** BEGIN config parameters ***************/
 
   //Define si app utiliza entorno mock o no
-  var _ENMARCHA_MOCK_ = true;
+  var _ENMARCHA_MOCK_ = false;
   //INT/PRO url services
-  var _SERVICES_ROOT_PRO_ = 'https://www.yammer.com/api/v1';
+  var _SERVICES_ROOT_PRO_ = 'https://api.yammer.com/api/v1';
 
   /************ END config parameters *****************/
 
@@ -26,7 +26,7 @@ function($, Ractive, Backbone, foundation, messages, MessagesView, AuthView, Pro
     name: 'enciosco',
     client_id: 'mOPBWuDVDTMyWBzkoYHg',
     client_secret: 'kimoqWAj9gKExr0C0bMKoMxwS59NH9uZjXtj8hwk6L4',
-    redirect_uri: 'http://localhost:9000/authenticated',
+    redirect_uri: 'http://enciosco.encamina.com:9000/authenticated',
     messages: [],
     currentMessage: -1,
     references: {},
@@ -35,18 +35,16 @@ function($, Ractive, Backbone, foundation, messages, MessagesView, AuthView, Pro
     },
     services: {
       //messages: 'getmessages',
-      messages: 'messages/my_feed.json',
+      messages: 'messages.json',
       //oauth: 'http://localhost:9000/oauth',
-      oauth: 'https://www.yammer.com/dialog/oauth',
-      //accesstoken: 'http://localhost:9000/accesstoken'
-      accesstoken: 'https://www.yammer.com/oauth2/access_token.json'
+      oauth: 'https://www.yammer.com/dialog/oauth'
     },
     service_root: service_root,
+    appUrl: 'http://enciosco.encamina.com:9000',
     defaultUrl: '/',
     routes: {
         "": "home",
         "auth": "v:auth",
-        "process": "v:process",
         "logout": "logout",
         "messages": "messages"
     },
@@ -54,10 +52,6 @@ function($, Ractive, Backbone, foundation, messages, MessagesView, AuthView, Pro
       'auth':{
         target: 'main',
         template: AuthView
-      },
-      'process':{
-        target: 'main',
-        template: ProcessView
       },
       'messages':{
         target: 'main',
@@ -67,6 +61,7 @@ function($, Ractive, Backbone, foundation, messages, MessagesView, AuthView, Pro
     },
     handlers: {
       home: function() {
+        
         if (localStorage.token){
           enmarcha.gotoPage('messages');
         }else{

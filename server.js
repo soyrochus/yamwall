@@ -15,10 +15,8 @@ http.createServer(app).listen(9000, function(){
 
 app.get('/authenticated', function(request, response){
 
-   var yammerCode = request.query['code'];
- 
-   response.send('<script>localStorage.yammerCode = "'+ yammerCode + '";\n' +
-                'window.location.href ="http://localhost:9000/#process";</script>');
+   response.send('<script>localStorage.token = location.hash.split("=")[1];\n' +
+                'window.location.href ="http://enciosco.encamina.com:9000/";</script>');
 });
 
 

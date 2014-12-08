@@ -40,7 +40,11 @@ define(['Ractive', 'Backbone', 'ractive-fade'], function(Ractive, Backbone){
   exports.getMessages = function(app, callback){
 
     var auth_header = 'Bearer ' + localStorage.token;
-    enmarcha.getService(app, 'messages', {}, {'Authentication': auth_header}, function(data){
+    var headers = {
+      'Authorization': auth_header
+    };
+    debugger;
+    enmarcha.getService(app, 'messages', {}, headers, function(data){
       app.messages = app.messages.concat(data.messages);
       app.references = data.references.reduce(function(obj, e){
          obj[e.id] = e;                

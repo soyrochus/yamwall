@@ -2,6 +2,9 @@ https://www.yammer.com/client_applications/53425
 
 Client ID ?   mOPBWuDVDTMyWBzkoYHg
 Client secret ?   kimoqWAj9gKExr0C0bMKoMxwS59NH9uZjXtj8hwk6L4
+
+current token: SEfYJfq7LF3ZwEDOxhSEIw
+
 Expected redirect ?   http://localhost:9000/authenticated
 
 https://www.yammer.com/dialog/oauth?client_id=mOPBWuDVDTMyWBzkoYHg&redirect_uri=http://localhost:9000/authenticated
@@ -14,7 +17,7 @@ code=GrOHWSvyU0nngX4Wyx7wwg
 http://[:redirect_uri]?error=[:error]&error_description=[:error_description]
 
 
-https://www.yammer.com/oauth2/access_token.json?client_id=mOPBWuDVDTMyWBzkoYHg&client_secret=kimoqWAj9gKExr0C0bMKoMxwS59NH9uZjXtj8hwk6L4&code=GrOHWSvyU0nngX4Wyx7wwg
+https://www.yammer.com/oauth2/access_token.json?client_id=mOPBWuDVDTMyWBzkoYHg&client_secret=kimoqWAj9gKExr0C0bMKoMxwS59NH9uZjXtj8hwk6L4&code=regXbZDgkQTDlyQ7fZRg
 
 
 HTTP 400 - error
