@@ -7,7 +7,7 @@ function($, Ractive, Backbone, foundation, messages, MessagesView, AuthView){
   /*********** BEGIN config parameters ***************/
 
   //Define si app utiliza entorno mock o no
-  var _ENMARCHA_MOCK_ = false;
+  var _ENMARCHA_MOCK_ = true; //false;
   //INT/PRO url services
   var _SERVICES_ROOT_PRO_ = 'https://api.yammer.com/api/v1';
 
@@ -22,11 +22,13 @@ function($, Ractive, Backbone, foundation, messages, MessagesView, AuthView){
     service_root = '/services';
   }
 
+  var appUrl = 'http://enciosco.encamina.com:9000';
+
   var app = enmarcha.config({
     name: 'enciosco',
     client_id: 'mOPBWuDVDTMyWBzkoYHg',
     client_secret: 'kimoqWAj9gKExr0C0bMKoMxwS59NH9uZjXtj8hwk6L4',
-    redirect_uri: 'http://enciosco.encamina.com:9000/authenticated',
+    redirect_uri: appUrl + '/authenticated',
     messages: [],
     currentMessage: -1,
     references: {},
@@ -34,13 +36,13 @@ function($, Ractive, Backbone, foundation, messages, MessagesView, AuthView){
       main: '#render-main'
     },
     services: {
-      //messages: 'getmessages',
-      messages: 'messages.json',
-      //oauth: 'http://localhost:9000/oauth',
-      oauth: 'https://www.yammer.com/dialog/oauth'
+      messages: 'getmessages',
+      //messages: 'messages.json',
+      oauth: appUrl + '/oauth'
+      //oauth: 'https://www.yammer.com/dialog/oauth'
     },
     service_root: service_root,
-    appUrl: 'http://enciosco.encamina.com:9000',
+    appUrl: appUrl,
     defaultUrl: '/',
     routes: {
         "": "home",
