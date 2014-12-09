@@ -1,0 +1,35 @@
+{
+  "name": "rvc",
+  "description": "RequireJS plugin to load and optimise Ractive components",
+  "version": "0.2.3",
+  "author": "Rich Harris",
+  "license": "MIT",
+  "main": [
+    "rvc.js"
+  ],
+  "ignore": [
+    "**",
+    "!rvc.js",
+    "!README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ractivejs/rvc.git"
+  },
+  "keywords": [
+    "requirejs",
+    "ractive",
+    "templating",
+    "templates"
+  ],
+  "homepage": "https://github.com/ractivejs/rvc",
+  "_release": "0.2.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.2.3",
+    "commit": "9f014a435c483bea443054c06d17b15641236ecb"
+  },
+  "_source": "git://github.com/ractivejs/rvc.git",
+  "_target": "~0.2.3",
+  "_originalSource": "rvc"
+}

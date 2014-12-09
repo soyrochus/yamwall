@@ -2,7 +2,7 @@
 \.#*
 *.DS_Store
 node_modules/*
-js/libs/*
+#js/libs/*
 .idea/
 server-mock/node_modules/*
 .sass-cache/*
