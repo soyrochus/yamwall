@@ -12,7 +12,7 @@ define(['Ractive', 'Backbone', 'ractive-fade'], function(){
     exports.getMessages(app, function(){
       setInterval(function(){
         exports.changeMessage(app);
-      }, 7000);
+      }, 4000);
     });
   };
 
