@@ -1,0 +1,42 @@
+<div class="config">
+<form>
+  <input type="radio" name="{{config}}" value="posts"/>Show 20 most recent posts<br>
+  <input type="radio" name="{{config}}" value="threads"/>Show most recent threads<br>
+  <input type="radio" name="{{config}}" value="group"/>Show group: <input type="text" name="group" size="40" /><br>
+  <input type="radio" name="{{config}}" value="topic"/>Show topic: <input type="text" name="topic" size="40" /><br>
+</form>
+<a href="#" onclick="return false;" on-click="cancel">Cancel</a> <a href="#" onclick="return false;" on-click="save">Save</a>
+</div>
+
+
+<style>
+ 
+ .config {
+   width: 800px;
+   clear: right;
+   border: 1px solid #CCC;
+  } 
+ 
+</style>
+
+<script>
+
+ var $ = require('jquery');
+ 
+ component.exports = {
+     onconstruct: function(options){
+         debugger;
+         options.data.config = 'posts';
+     },
+     onrender: function(){
+         this.on('save', function(){
+             enmarcha.gotoPage('messages');
+         });
+
+         this.on('cancel', function(){
+             enmarcha.gotoPage('messages');
+         });
+     }
+ };
+ 
+</script>

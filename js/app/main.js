@@ -1,7 +1,7 @@
 /* globals: bookapp, define, _ENMARCHA_MOCK_, service_root, _SERVICES_ROOT_PRO_,  enmarcha , localstorage */
 
-define(['jquery', 'Ractive', 'Backbone', 'foundation', 'app/messages','rvc!app/messages', 'rvc!app/auth'],
-function($, Ractive, Backbone, foundation, messages, MessagesView, AuthView){
+define(['jquery', 'Ractive', 'Backbone', 'foundation', 'app/messages','rvc!app/messages', 'rvc!app/auth', 'rvc!app/config'],
+function($, Ractive, Backbone, foundation, messages, MessagesView, AuthView, ConfigView){
   "use strict";
 
   /*********** BEGIN config parameters ***************/
@@ -47,6 +47,7 @@ function($, Ractive, Backbone, foundation, messages, MessagesView, AuthView){
     routes: {
         "": "home",
         "auth": "v:auth",
+        "config": "v:config",
         "logout": "logout",
         "messages": "messages"
     },
@@ -54,6 +55,10 @@ function($, Ractive, Backbone, foundation, messages, MessagesView, AuthView){
       'auth':{
         target: 'main',
         template: AuthView
+      },
+      'config':{
+        target: 'main',
+        template: ConfigView
       },
       'messages':{
         target: 'main',
