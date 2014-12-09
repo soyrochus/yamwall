@@ -7,7 +7,7 @@ function($, Ractive, Backbone, foundation, messages, MessagesView, AuthView){
   /*********** BEGIN config parameters ***************/
 
   //Define si app utiliza entorno mock o no
-  var _ENMARCHA_MOCK_ = true; //false;
+  var _ENMARCHA_MOCK_ = false; //true; false;
   //INT/PRO url services
   var _SERVICES_ROOT_PRO_ = 'https://api.yammer.com/api/v1';
 
@@ -36,10 +36,10 @@ function($, Ractive, Backbone, foundation, messages, MessagesView, AuthView){
       main: '#render-main'
     },
     services: {
-      messages: 'getmessages',
-      //messages: 'messages.json',
-      oauth: appUrl + '/oauth'
-      //oauth: 'https://www.yammer.com/dialog/oauth'
+      //messages: 'getmessages',
+      messages: 'messages.json',
+      //oauth: appUrl + '/oauth'
+      oauth: 'https://www.yammer.com/dialog/oauth'
     },
     service_root: service_root,
     appUrl: appUrl,

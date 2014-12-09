@@ -1,12 +1,12 @@
 /* global define , enmarcha, debugger */
 
-define(['Ractive', 'Backbone', 'ractive-fade'], function(Ractive, Backbone){
+define(['Ractive', 'Backbone', 'ractive-fade'], function(){
   "use strict"
 
   var exports = {};
 
   //presencia de este methodo cuasa delegacion del "routing" 
-  exports.handleRoute = function(app, args){
+  exports.handleRoute = function(app /*,  args */){
 
     app.views.show('messages', {user: {}, message: {}});      
     exports.getMessages(app, function(){
@@ -29,9 +29,19 @@ define(['Ractive', 'Backbone', 'ractive-fade'], function(Ractive, Backbone){
     var view = app.views.get('messages').get();
     if (view){
       var message = app.messages[app.currentMessage];
-      var attachment = (message.attachments.length > 0) ? message.attachments[0] : false;
+      var attachments = message.attachments.filter(function(e){
+                          return !!e.inline_html;
+                        });
+      var images = message.attachments.filter(function(e){
+                          if (e.content_class && (e.content_class === 'Image')){
+                            return true;
+                          } else {
+                            return false;
+                          }
+                        });
       app.views.teardown(function(){
-        app.views.show('messages',{user: app.references[message.sender_id], message:message, attachment: attachment});
+        app.views.show('messages',{user: app.references[message.sender_id], message:message,
+                                   attachments: attachments, images: images});
       });
       
     }    
