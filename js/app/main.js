@@ -7,7 +7,7 @@ function($, Ractive, Backbone, foundation, messages, MessagesView, AuthView, Con
   /*********** BEGIN config parameters ***************/
 
   //Define si app utiliza entorno mock o no
-  var _ENMARCHA_MOCK_ = false; //true; false;
+  var _ENMARCHA_MOCK_ = true; //false;
   //INT/PRO url services
   var _SERVICES_ROOT_PRO_ = 'https://api.yammer.com/api/v1';
 
@@ -22,7 +22,8 @@ function($, Ractive, Backbone, foundation, messages, MessagesView, AuthView, Con
     service_root = '/services';
   }
 
-  var appUrl = 'http://yammwall.encamina.com';
+  //var appUrl = 'http://yammwall.encamina.com';
+  var appUrl = 'http://yammerwall.encamina.com'; //Mock local
 
   var app = enmarcha.config({
     name: 'enciosco',
@@ -36,10 +37,10 @@ function($, Ractive, Backbone, foundation, messages, MessagesView, AuthView, Con
       main: '#render-main'
     },
     services: {
-      //messages: 'getmessages',
-      messages: 'messages.json',
-      //oauth: appUrl + '/oauth'
-      oauth: 'https://www.yammer.com/dialog/oauth'
+      messages: 'getmessages',
+      //messages: 'messages.json',
+      oauth: appUrl + '/oauth'
+      //oauth: 'https://www.yammer.com/dialog/oauth'
     },
     service_root: service_root,
     appUrl: appUrl,

@@ -9,7 +9,8 @@ var express = require("express"),
 
 app.use('/',express.static(path.join(__dirname, './')));
 
-var appUrl = 'http://yammwall.encamina.com';
+//var appUrl = 'http://yammwall.encamina.com';
+var appUrl = 'http://yammerwall.encamina.com'; //local mock
 
 http.createServer(app).listen(80, function(){
     console.log("Express server listening on port 80");
