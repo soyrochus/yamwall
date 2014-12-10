@@ -22,7 +22,7 @@ function($, Ractive, Backbone, foundation, messages, MessagesView, AuthView, Con
     service_root = '/services';
   }
 
-  var appUrl = 'http://enciosco.encamina.com:9000';
+  var appUrl = 'http://yammwall.encamina.com';
 
   var app = enmarcha.config({
     name: 'enciosco',

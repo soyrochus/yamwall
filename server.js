@@ -9,10 +9,10 @@ var express = require("express"),
 
 app.use('/',express.static(path.join(__dirname, './')));
 
-var appUrl = 'http://enciosco.encamina.com:9000';
+var appUrl = 'http://yammwall.encamina.com';
 
-http.createServer(app).listen(9000, function(){
-    console.log("Express server listening on port 9000");
+http.createServer(app).listen(80, function(){
+    console.log("Express server listening on port 80");
 });
 
 app.get('/authenticated', function(request, response){

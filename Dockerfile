@@ -3,6 +3,6 @@ MAINTAINER Iwan van der Kleijn <iwan@encamina.com>
 CMD mkdir /enciosco
 ADD . /enciosco/
 WORKDIR /enciosco
-EXPOSE 9000
+EXPOSE 80
 ENTRYPOINT ["/usr/local/bin/node"]
 CMD ["server.js"]
