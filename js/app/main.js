@@ -81,13 +81,66 @@ function($, Ractive, Backbone, foundation, messages, MessagesView, AuthView, Con
         enmarcha.gotoPage('');
       },
       messages: messages
+    },
+    showMenu: function(isVisible){
+      if (isVisible){
+        $('#menu').hide();
+      } else {
+        $('#menu').show();
+      }
+    },
+    fullScreenMenu: function(isFullscreen){
+      if(isFullscreen){
+        $('#panel-full-screen').show();
+        $('#panel-normal').hide();
+      } else {
+        $('#panel-full-screen').hide();
+        $('#panel-normal').show();
+      }
     }
   });
   
   return {
     init: function(app){
       //primeras acciones en page load
-
+            
+      $('#full-screen').on('click',function(){
+        debugger;
+        var docElm = document.documentElement;
+        if (docElm.requestFullscreen) {
+          docElm.requestFullscreen();
+        }
+        else if (docElm.mozRequestFullScreen) {
+          docElm.mozRequestFullScreen();
+        }
+        else if (docElm.webkitRequestFullScreen) {
+          docElm.webkitRequestFullScreen();
+        }
+        else if (docElm.msRequestFullscreen) {
+          docElm.msRequestFullscreen();
+        }
+        enciosco.fullScreen = true;
+        enciosco.fullScreenMenu(enciosco.fullScreen);
+      });
+      
+      $('#normal-screen').on('click', function(){
+        debugger;
+        if (document.exitFullscreen) {
+          document.exitFullscreen();
+        }
+        else if (document.mozCancelFullScreen) {
+          document.mozCancelFullScreen();
+        }
+        else if (document.webkitCancelFullScreen) {
+          document.webkitCancelFullScreen();
+        }
+        else if (document.msExitFullscreen) {
+          document.msExitFullscreen();
+        }
+        
+        enciosco.fullScreen = false;
+        enciosco.fullScreenMenu(enciosco.fullScreen);
+      });         
     }
   };
 });
