@@ -28,7 +28,12 @@
          debugger;
          options.data.config = 'posts';
      },
+     //presencia de este methodo cuasa delegacion del "routing" 
+     handleRoute:function(app /*,  args */){
+         app.showMenu(false);
+     },
      onrender: function(){
+       
          this.on('save', function(){
              enmarcha.gotoPage('messages');
          });

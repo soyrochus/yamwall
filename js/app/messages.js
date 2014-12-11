@@ -7,7 +7,7 @@ define(['Ractive', 'Backbone', 'ractive-fade'], function(){
 
   //presencia de este methodo cuasa delegacion del "routing" 
   exports.handleRoute = function(app /*,  args */){
-
+    app.showMenu(true);
     app.views.show('messages', {user: {}, message: {}});      
     exports.getMessages(app, function(){
       setInterval(function(){

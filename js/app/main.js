@@ -84,9 +84,9 @@ function($, Ractive, Backbone, foundation, messages, MessagesView, AuthView, Con
     },
     showMenu: function(isVisible){
       if (isVisible){
-        $('#menu').hide();
-      } else {
         $('#menu').show();
+      } else {
+        $('#menu').hide();
       }
     },
     fullScreenMenu: function(isFullscreen){
